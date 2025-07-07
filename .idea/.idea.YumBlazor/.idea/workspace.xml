@@ -8,7 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="" />
+    <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/ICategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/ICategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,23 +22,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Duavs"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Duavs&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Duavs/Yum.git",
-    "accountId": "bd311f17-feb6-406c-b569-6e81056c5328"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Duavs/Yum.git&quot;,
+    &quot;accountId&quot;: &quot;bd311f17-feb6-406c-b569-6e81056c5328&quot;
   }
-}]]></component>
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2zVJk9ixlGzPfLIWPgzbt9fnmtk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,6 +48,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -96,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751810448911</updated>
-      <workItem from="1751810450027" duration="1784000" />
+      <workItem from="1751810450027" duration="2473000" />
+      <workItem from="1751891206092" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="created category model">
       <option name="closed" value="true" />
@@ -114,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751812204421</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add ICategoryRepository interface and update project structure">
+      <option name="closed" value="true" />
+      <created>1751814098109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751814098109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +141,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="created category model" />
     <MESSAGE value="add Category entity with initial data and update ApplicationDbContext" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Category entity with initial data and update ApplicationDbContext" />
+    <MESSAGE value="add ICategoryRepository interface and update project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ICategoryRepository interface and update project structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

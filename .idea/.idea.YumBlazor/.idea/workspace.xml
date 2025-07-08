@@ -9,10 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/YumBlazor/Repository/CategoryRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/ICategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/ICategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2zVJk9ixlGzPfLIWPgzbt9fnmtk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -103,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751810448911</updated>
       <workItem from="1751810450027" duration="2473000" />
-      <workItem from="1751891206092" duration="451000" />
+      <workItem from="1751891206092" duration="9121000" />
     </task>
     <task id="LOCAL-00001" summary="created category model">
       <option name="closed" value="true" />
@@ -129,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751814098109</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add ICategoryRepository interface and implement category CRUD operations">
+      <option name="closed" value="true" />
+      <created>1751891690944</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751891690944</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +151,8 @@
     <MESSAGE value="created category model" />
     <MESSAGE value="add Category entity with initial data and update ApplicationDbContext" />
     <MESSAGE value="add ICategoryRepository interface and update project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ICategoryRepository interface and update project structure" />
+    <MESSAGE value="add ICategoryRepository interface and implement category CRUD operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ICategoryRepository interface and implement category CRUD operations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

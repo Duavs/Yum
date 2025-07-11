@@ -9,26 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/CategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/ICategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/ICategoryRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +111,7 @@
       <updated>1751810448911</updated>
       <workItem from="1751810450027" duration="2473000" />
       <workItem from="1751891206092" duration="9209000" />
-      <workItem from="1752019402659" duration="15269000" />
+      <workItem from="1752019402659" duration="16794000" />
     </task>
     <task id="LOCAL-00001" summary="created category model">
       <option name="closed" value="true" />
@@ -169,7 +153,79 @@
       <option name="project" value="LOCAL" />
       <updated>1751985349771</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add CategoryList page and implement category retrieval with loading state">
+      <option name="closed" value="true" />
+      <created>1752237384135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752237384135</updated>
+    </task>
+    <task id="LOCAL-00007" summary="enable detailed error messages in appsettings.json">
+      <option name="closed" value="true" />
+      <created>1752237390847</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752237390847</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add CategoryList page with loading state and implement category retrieval">
+      <option name="closed" value="true" />
+      <created>1752237404785</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752237404785</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add CategoryList page with loading state and implement category retrieval, along with migration for Categories table">
+      <option name="closed" value="true" />
+      <created>1752237413523</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752237413523</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update NavMenu to add Category link and remove Counter and Weather links">
+      <option name="closed" value="true" />
+      <created>1752237424961</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752237424961</updated>
+    </task>
+    <task id="LOCAL-00011" summary="register ICategoryRepository with CategoryRepository in Program.cs">
+      <option name="closed" value="true" />
+      <created>1752237433901</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752237433901</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update assembly informational version to reflect latest changes">
+      <option name="closed" value="true" />
+      <created>1752237468884</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752237468884</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update editorconfig and cache files for CategoryList page integration">
+      <option name="closed" value="true" />
+      <created>1752237475905</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752237475905</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add Categories table with initial seed data">
+      <option name="closed" value="true" />
+      <created>1752237486582</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752237486582</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +240,16 @@
     <MESSAGE value="add ICategoryRepository interface and update project structure" />
     <MESSAGE value="add ICategoryRepository interface and implement category CRUD operations" />
     <MESSAGE value="add CategoryRepository implementation and migration for Categories table" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CategoryRepository implementation and migration for Categories table" />
+    <MESSAGE value="add CategoryList page and implement category retrieval with loading state" />
+    <MESSAGE value="enable detailed error messages in appsettings.json" />
+    <MESSAGE value="add CategoryList page with loading state and implement category retrieval" />
+    <MESSAGE value="add CategoryList page with loading state and implement category retrieval, along with migration for Categories table" />
+    <MESSAGE value="update NavMenu to add Category link and remove Counter and Weather links" />
+    <MESSAGE value="register ICategoryRepository with CategoryRepository in Program.cs" />
+    <MESSAGE value="update assembly informational version to reflect latest changes" />
+    <MESSAGE value="update editorconfig and cache files for CategoryList page integration" />
+    <MESSAGE value="add Categories table with initial seed data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Categories table with initial seed data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

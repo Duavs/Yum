@@ -52,14 +52,26 @@ else
 }
 
 @code {
-    public bool IsProcessing { get; set; } = false;
+    public bool IsProcessing { get; set; } = true;
     private IEnumerable<Category> Categories { get; set; } = new List<Category>();
     protected override async Task OnInitializedAsync()
     {
-        IsProcessing = true;
-        await LoadCategories();
-        IsProcessing = false;
+        // IsProcessing = true; in OnInitializedAsync Version
+        // await LoadCategories();
+        // IsProcessing = false;
     }
+    
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadCategories();
+            IsProcessing = false;
+            StateHasChanged();
+        }
+        // return base.OnAfterRenderAsync(firstRender);
+    }
+    
     private async Task LoadCategories()
     {
         Categories = await _categoryRepository.GetAllAsync();

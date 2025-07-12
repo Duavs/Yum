@@ -20,7 +20,7 @@ else
         <div class="card-body p-4">
             <div class="row pb-3">
                 <div class="col-12 text-end">
-                    <button class="btn btn-lg btn-secondary" style="width:240px">Add New Category</button>
+                    <a href="category/create" class="btn btn-lg btn-secondary" style="width:240px">Add New Category</a>
                 </div>
                 @if (Categories.Any())
                 {
@@ -39,7 +39,8 @@ else
                                         @obj.Name
                                     </td>
                                     <td>
-                                        <button class="btn btn-sm btn-danger">Delete</button>
+                                        <a href="@($"category/update/{obj.Id}")" class="btn btn-sm btn-primary">Update</a>
+                                        <button class="btn btn-danger">Delete</button>
                                     </td>
                                 </tr>
                             }
@@ -76,4 +77,4 @@ else
     {
         Categories = await _categoryRepository.GetAllAsync();
     }
-};
+}

@@ -47,7 +47,7 @@ public class CategoryRepository : ICategoryRepository
     public async Task<Category>GetAsync(int id)
     {
        var obj = await _db.Categories.FirstOrDefaultAsync(u => u.Id == id);
-       if (obj != null)
+       if (obj == null)
        {
            return new Category();
        }

@@ -6,7 +6,6 @@ using YumBlazor.Components.Account;
 using YumBlazor.Data;
 using YumBlazor.Repository;
 using YumBlazor.Repository.IRepository;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

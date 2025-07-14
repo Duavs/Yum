@@ -215,3 +215,4 @@
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/YumBlazor.genruntimeconfig.cache
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json
+/Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/ejxt76q8r6-n0po18s9f8.gz

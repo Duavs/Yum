@@ -53,7 +53,7 @@ else
 }
 
 @code {
-    public bool IsProcessing { get; set; } = true;
+    private bool IsProcessing { get; set; } = true;
     private IEnumerable<Category> Categories { get; set; } = new List<Category>();
     protected override async Task OnInitializedAsync()
     {

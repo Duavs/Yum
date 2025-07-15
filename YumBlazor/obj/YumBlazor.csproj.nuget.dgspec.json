@@ -59,6 +59,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.3.7, )"
             }
           },
           "imports": [

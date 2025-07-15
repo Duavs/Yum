@@ -9,23 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Services/Extensions/IJSRuntimeExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YumBlazor/wwwroot/lib/js/notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YumBlazor/Components/Shared/BsModal.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/App.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryUpsert.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/CategoryRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/YumBlazor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/YumBlazor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.endpoints.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
@@ -41,6 +38,13 @@
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/YumBlazor.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/YumBlazor.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/YumBlazor.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/YumBlazor.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +77,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/606e6d0455064328894dffc4f9937d8121c00/e2/19388299/IJSRuntime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/473d97221b573ab97e6e745d8adae8b9e95a666539d6ed3cc8566b245d93a/ArgumentNullException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5094e71058416d72278f32a6913f67a9c664bd46c296c5cce3ee63993dde3f/Type.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6182caf029c8666b96a8b3bae244ef29b988c59b58e9b3439b794a4f8195bec/ParameterExpression.cs" root0="FORCE_HIGHLIGHTING" />
@@ -156,7 +161,8 @@
       <workItem from="1752019402659" duration="27247000" />
       <workItem from="1752368559040" duration="100000" />
       <workItem from="1752368719044" duration="6686000" />
-      <workItem from="1752501440785" duration="2543000" />
+      <workItem from="1752501440785" duration="3135000" />
+      <workItem from="1752583247783" duration="5501000" />
     </task>
     <task id="LOCAL-00001" summary="created category model">
       <option name="closed" value="true" />
@@ -334,7 +340,71 @@
       <option name="project" value="LOCAL" />
       <updated>1752330370875</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added the services.extension in imports">
+      <option name="closed" value="true" />
+      <created>1752504241831</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1752504241831</updated>
+    </task>
+    <task id="LOCAL-00024" summary="arrange the order of the cdns and added the notification.js in the app razor">
+      <option name="closed" value="true" />
+      <created>1752504289211</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1752504289211</updated>
+    </task>
+    <task id="LOCAL-00025" summary="make the public to private">
+      <option name="closed" value="true" />
+      <created>1752504327331</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1752504327331</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update the condition to equals from not equals">
+      <option name="closed" value="true" />
+      <created>1752504364044</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1752504364044</updated>
+    </task>
+    <task id="LOCAL-00027" summary="D.I the ICategory, NavigationManager, IJSRuntime. Added the Toastr in Creating and Updating of Category">
+      <option name="closed" value="true" />
+      <created>1752504444899</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1752504444899</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Created the IJSRuntimeExtension for the toastr success and error">
+      <option name="closed" value="true" />
+      <created>1752504477941</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1752504477941</updated>
+    </task>
+    <task id="LOCAL-00029" summary="created a function for toast success and error">
+      <option name="closed" value="true" />
+      <created>1752504501537</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1752504501537</updated>
+    </task>
+    <task id="LOCAL-00030" summary="changes">
+      <option name="closed" value="true" />
+      <created>1752504518425</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1752504518425</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,11 +414,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="created category model" />
-    <MESSAGE value="add Category entity with initial data and update ApplicationDbContext" />
-    <MESSAGE value="add ICategoryRepository interface and update project structure" />
-    <MESSAGE value="add ICategoryRepository interface and implement category CRUD operations" />
-    <MESSAGE value="add CategoryRepository implementation and migration for Categories table" />
     <MESSAGE value="add CategoryList page and implement category retrieval with loading state" />
     <MESSAGE value="enable detailed error messages in appsettings.json" />
     <MESSAGE value="add CategoryList page with loading state and implement category retrieval" />
@@ -366,7 +431,15 @@
     <MESSAGE value="updates" />
     <MESSAGE value="Added icon in button create" />
     <MESSAGE value="Implement category form loader with conditional rendering and repository injection&#10;&#10;- Injected ICategoryRepository for data access&#10;- Added IsProcessing state to show loading indicator&#10;- Loaded category data when Id &gt; 0 (update mode)&#10;- Dynamically switched between 'Create' and 'Update' headings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement category form loader with conditional rendering and repository injection&#10;&#10;- Injected ICategoryRepository for data access&#10;- Added IsProcessing state to show loading indicator&#10;- Loaded category data when Id &gt; 0 (update mode)&#10;- Dynamically switched between 'Create' and 'Update' headings" />
+    <MESSAGE value="added the services.extension in imports" />
+    <MESSAGE value="arrange the order of the cdns and added the notification.js in the app razor" />
+    <MESSAGE value="make the public to private" />
+    <MESSAGE value="update the condition to equals from not equals" />
+    <MESSAGE value="D.I the ICategory, NavigationManager, IJSRuntime. Added the Toastr in Creating and Updating of Category" />
+    <MESSAGE value="Created the IJSRuntimeExtension for the toastr success and error" />
+    <MESSAGE value="created a function for toast success and error" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,6 +470,11 @@
             <option name="multiMethodBreakpoint" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/YumBlazor/Components/App.razor</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

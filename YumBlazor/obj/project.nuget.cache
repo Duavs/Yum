@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YqTzBy+B42c=",
+  "dgSpecHash": "RpBmG/d2AA0=",
   "success": true,
   "projectFilePath": "/Users/john/Projects/YumBlazor/YumBlazor/YumBlazor.csproj",
   "expectedPackageFiles": [
     "/Users/john/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/john/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
+    "/Users/john/.nuget/packages/bootstrap/5.3.7/bootstrap.5.3.7.nupkg.sha512",
     "/Users/john/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/john/.nuget/packages/microsoft.aspnetcore.cryptography.internal/9.0.6/microsoft.aspnetcore.cryptography.internal.9.0.6.nupkg.sha512",
     "/Users/john/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/9.0.6/microsoft.aspnetcore.cryptography.keyderivation.9.0.6.nupkg.sha512",

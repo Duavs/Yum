@@ -1,8 +1,11 @@
 @page "/category"
 @inject ICategoryRepository _categoryRepository
+@inject IJSRuntime _JS
+@using System.Reflection.Metadata
 @using YumBlazor.Components.Shared
 
-<BsModal></BsModal>
+<BsModal OnModalConfirmation="ConfirmDelete"></BsModal>
+
 
 
 @if (IsProcessing)
@@ -44,7 +47,7 @@ else
                                     </td>
                                     <td>
                                         <a href="@($"category/update/{obj.Id}")" class="btn btn-sm btn-primary"><i class="bi bi-pencil-fill"></i>Update</a>
-                                        <button class="btn btn-sm btn-danger"><i class="bi bi-trash3-fill"></i>Delete</button>
+                                        <button class="btn btn-sm btn-danger" @onclick="()=>HandleDelete(obj.Id)"><i class="bi bi-trash3-fill"></i>Delete</button>
                                     </td>
                                 </tr>
                             }
@@ -59,6 +62,8 @@ else
 @code {
     private bool IsProcessing { get; set; } = true;
     private IEnumerable<Category> Categories { get; set; } = new List<Category>();
+    private int DeleteCategoryId { get; set; } = 0;
+
     protected override async Task OnInitializedAsync()
     {
         // IsProcessing = true; in OnInitializedAsync Version
@@ -80,5 +85,30 @@ else
     private async Task LoadCategories()
     {
         Categories = await _categoryRepository.GetAllAsync();
+    }
+
+    private void HandleDelete(int id)
+    {
+        DeleteCategoryId = id;
+        
+        _JS.InvokeVoidAsync("ShowConfirmationModal");
+    }
+
+    private async Task ConfirmDelete(bool isConfirmed)
+    {
+        IsProcessing = true;
+        await _JS.InvokeVoidAsync("HideConfirmationModal");
+        if (isConfirmed && DeleteCategoryId > 0)
+        {
+            var result =  await _categoryRepository.DeleteAsync(DeleteCategoryId);
+            if (result)
+                _JS?.ToastrSuccess("Category deleted successfully.");
+            else
+                _JS?.ToastrError("Failed to delete category.");
+
+            await LoadCategories();
+        }
+        DeleteCategoryId = 0;
+        IsProcessing = false;
     }
 }

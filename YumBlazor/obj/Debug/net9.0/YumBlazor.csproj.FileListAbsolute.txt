@@ -260,3 +260,4 @@
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/lq76n2xjsw-4fapcppmxt.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/ej9zfvkwks-7183nd47gn.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/8sshlo8ikq-fv6m00jlsj.gz
+/Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/8tcb7ycjb1-glrcnf2j6b.gz

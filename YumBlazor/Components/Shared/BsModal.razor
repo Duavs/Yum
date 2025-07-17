@@ -1,15 +1,16 @@
 
 <!-- Modal -->
 <div class="modal fade" id="bsConfirmationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">@Title</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <button type="button" class=" btn-lg btn-secondary" data-bs-dismiss="modal" @onclick="()=>ConfirmationClicked(false)" style="width:150px;">Close</button>
-                <button type="button" class="btn btn-lg @ButtonBootstrapStyle" @onclick="()=>ConfirmationClicked(true)">@ButtonText</button>
+                <button type="button" class="btn btn-lg btn-secondary" data-bs-dismiss="modal" @onclick="() => ConfirmationClicked(false)">Close</button>
+                <button type="button" class="btn btn-lg btn-danger" @onclick="() => ConfirmationClicked(true)">
+                    <i class="@ButtonBootstrapStyle"></i>
+                </button>
             </div>
         </div>
     </div>
@@ -23,7 +24,7 @@
     public string Title { get; set; } = "Please Confirm";
 
     [Parameter] 
-    public string ButtonBootstrapStyle { get; set; } = "btn-primary";
+    public string ButtonBootstrapStyle { get; set; } = "bi bi-trash3-fill";
 
     [Parameter] public string ButtonText { get; set; } = "Confirm";
 

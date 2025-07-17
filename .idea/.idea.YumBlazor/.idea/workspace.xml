@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Shared/BsModal.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Shared/BsModal.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/_Imports.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
@@ -25,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,9 @@
       <workItem from="1752368559040" duration="100000" />
       <workItem from="1752368719044" duration="6686000" />
       <workItem from="1752501440785" duration="3135000" />
-      <workItem from="1752583247783" duration="12300000" />
+      <workItem from="1752583247783" duration="12463000" />
+      <workItem from="1752758318923" duration="1497000" />
+      <workItem from="1752760561758" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="created category model">
       <option name="closed" value="true" />
@@ -448,7 +450,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752674179121</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="added the components.shared">
+      <option name="closed" value="true" />
+      <created>1752678711259</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1752678711259</updated>
+    </task>
+    <task id="LOCAL-00040" summary="changes">
+      <option name="closed" value="true" />
+      <created>1752678729318</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1752678729319</updated>
+    </task>
+    <task id="LOCAL-00041" summary="changes">
+      <option name="closed" value="true" />
+      <created>1752678752685</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1752678752685</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +484,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="update editorconfig and cache files for CategoryList page integration" />
     <MESSAGE value="add Categories table with initial seed data" />
     <MESSAGE value="refactor CategoryList to use asynchronous loading for categories" />
     <MESSAGE value="refactor CategoryRepository to use asynchronous methods for CRUD operations" />
@@ -482,6 +507,7 @@
     <MESSAGE value="created an eventcallback for confirmation of delete in the modal" />
     <MESSAGE value="injected the new js file and fix the handle of deleting category" />
     <MESSAGE value="created showing and hiding of confirmation modal" />
+    <MESSAGE value="added the components.shared" />
     <MESSAGE value="changes" />
     <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
@@ -518,6 +544,9 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/YumBlazor/Components/App.razor</url>
           <line>26</line>
+          <properties isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+          </properties>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

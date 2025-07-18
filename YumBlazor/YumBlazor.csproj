@@ -17,7 +17,12 @@
 
     <ItemGroup>
       <Folder Include="ViewModels\" />
-      <Folder Include="wwwroot\lib\images\" />
+      <Folder Include="wwwroot\lib\images\product\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Components\Pages\Product_Pages\ProductList.razor" />
+      <AdditionalFiles Include="Components\Pages\Product_Pages\ProductUpsert.razor" />
     </ItemGroup>
 
 </Project>

@@ -7,6 +7,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     : IdentityDbContext<ApplicationUser>(options)
 {
     public DbSet<Category> Categories { get; set; }
+    public DbSet<Product> Product { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -18,4 +19,4 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             new Category { Id = 4, Name = "Beverages" }
         );
     }
-}
+}  

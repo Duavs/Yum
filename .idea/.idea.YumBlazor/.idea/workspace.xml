@@ -9,22 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductList.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Repository/ProductRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/YumBlazor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/YumBlazor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
@@ -155,31 +145,7 @@
       <workItem from="1752583247783" duration="12463000" />
       <workItem from="1752758318923" duration="1497000" />
       <workItem from="1752760561758" duration="2884000" />
-      <workItem from="1752845554329" duration="2211000" />
-    </task>
-    <task id="LOCAL-00001" summary="created category model">
-      <option name="closed" value="true" />
-      <created>1751812190307</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1751812190307</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add Category entity with initial data and update ApplicationDbContext">
-      <option name="closed" value="true" />
-      <created>1751812204421</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1751812204421</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add ICategoryRepository interface and update project structure">
-      <option name="closed" value="true" />
-      <created>1751814098109</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1751814098109</updated>
+      <workItem from="1752845554329" duration="6324000" />
     </task>
     <task id="LOCAL-00004" summary="add ICategoryRepository interface and implement category CRUD operations">
       <option name="closed" value="true" />
@@ -509,7 +475,71 @@
       <option name="project" value="LOCAL" />
       <updated>1752763214490</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="added Product repository and CRUD operations, updated database context and UI for product management">
+      <option name="closed" value="true" />
+      <created>1752848201317</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1752848201317</updated>
+    </task>
+    <task id="LOCAL-00046" summary="added Product entity configuration to ApplicationDbContextModelSnapshot">
+      <option name="closed" value="true" />
+      <created>1752848240698</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1752848240698</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added Product management pages and repository implementation">
+      <option name="closed" value="true" />
+      <created>1752848250534</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1752848250534</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added ProductList component with product loading and deletion functionality">
+      <option name="closed" value="true" />
+      <created>1752848259327</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1752848259327</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added ProductRepository with CRUD operations for product management">
+      <option name="closed" value="true" />
+      <created>1752848267292</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1752848267292</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added ProductUpsert component for creating and updating products with form handling">
+      <option name="closed" value="true" />
+      <created>1752848273419</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1752848273420</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added IProductRepository to the service container for product management">
+      <option name="closed" value="true" />
+      <created>1752848279292</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1752848279292</updated>
+    </task>
+    <task id="LOCAL-00052" summary="changes">
+      <option name="closed" value="true" />
+      <created>1752848289890</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1752848289890</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,13 +549,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="refactor ICategoryRepository to use asynchronous methods for CRUD operations" />
-    <MESSAGE value="refactor CategoryList to load categories after rendering" />
-    <MESSAGE value="add Bootstrap and Toastr.js for improved styling and notifications" />
-    <MESSAGE value="updates" />
-    <MESSAGE value="Added icon in button create" />
-    <MESSAGE value="Implement category form loader with conditional rendering and repository injection&#10;&#10;- Injected ICategoryRepository for data access&#10;- Added IsProcessing state to show loading indicator&#10;- Loaded category data when Id &gt; 0 (update mode)&#10;- Dynamically switched between 'Create' and 'Update' headings" />
-    <MESSAGE value="added the services.extension in imports" />
     <MESSAGE value="arrange the order of the cdns and added the notification.js in the app razor" />
     <MESSAGE value="make the public to private" />
     <MESSAGE value="update the condition to equals from not equals" />
@@ -540,11 +563,18 @@
     <MESSAGE value="injected the new js file and fix the handle of deleting category" />
     <MESSAGE value="created showing and hiding of confirmation modal" />
     <MESSAGE value="added the components.shared" />
-    <MESSAGE value="changes" />
     <MESSAGE value="updated BsModal to center dialog and change button styles" />
     <MESSAGE value="updated BsModal button styles for delete confirmation" />
     <MESSAGE value="added Product model and updated project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Product model and updated project structure" />
+    <MESSAGE value="added Product repository and CRUD operations, updated database context and UI for product management" />
+    <MESSAGE value="added Product entity configuration to ApplicationDbContextModelSnapshot" />
+    <MESSAGE value="added Product management pages and repository implementation" />
+    <MESSAGE value="added ProductList component with product loading and deletion functionality" />
+    <MESSAGE value="added ProductRepository with CRUD operations for product management" />
+    <MESSAGE value="added ProductUpsert component for creating and updating products with form handling" />
+    <MESSAGE value="added IProductRepository to the service container for product management" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -11,10 +11,6 @@
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +44,17 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/606e6d0455064328894dffc4f9937d8121c00/e2/19388299/IJSRuntime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cda6ef3fbc2942caac7c3dac86e88abf70800/99/517d4f0c/IBrowserFile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2610c78ec589e1aacd82c4428835c427b838e8156a6f346f517d28ef9ffbb9a2/FileInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/28cd855de94bfd8634946dc58c1968981f553bac8b4628e2e0457228ee2eea/Guid.Unix.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/473d97221b573ab97e6e745d8adae8b9e95a666539d6ed3cc8566b245d93a/ArgumentNullException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5094e71058416d72278f32a6913f67a9c664bd46c296c5cce3ee63993dde3f/Type.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6182caf029c8666b96a8b3bae244ef29b988c59b58e9b3439b794a4f8195bec/ParameterExpression.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7e333a9f3297ba553cccfd3b7c3f1f96125b23d09f883e4d6e66d531559a4c/Type.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9183f3103246fc2e1ddcd784f65218be14709fc4f22fc44af622985735a97/FileStream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9791af8a6f1fd2d4426079f66fc5d3f23fc58597deb8a17878388a76d84013/Guid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/beaecdeee49d57b5c392d6d98ddb2e5a8e1d7ab1c6a9ece524b78ade32afc5/TypeUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c2b587448e23bd69924d3d6ce2c091f8524b5e54f99b070918997a2c7540/FileSystemInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YumBlazor/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YumBlazor/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -138,15 +140,7 @@
       <workItem from="1752758318923" duration="1497000" />
       <workItem from="1752760561758" duration="2884000" />
       <workItem from="1752845554329" duration="6855000" />
-      <workItem from="1752919044292" duration="2363000" />
-    </task>
-    <task id="LOCAL-00008" summary="add CategoryList page with loading state and implement category retrieval">
-      <option name="closed" value="true" />
-      <created>1752237404785</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1752237404785</updated>
+      <workItem from="1752919044292" duration="5385000" />
     </task>
     <task id="LOCAL-00009" summary="add CategoryList page with loading state and implement category retrieval, along with migration for Categories table">
       <option name="closed" value="true" />
@@ -532,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752919384050</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="added image upload functionality to ProductUpsert component and created Product database table">
+      <option name="closed" value="true" />
+      <created>1752921849335</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1752921849335</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +544,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Created the IJSRuntimeExtension for the toastr success and error" />
     <MESSAGE value="created a function for toast success and error" />
     <MESSAGE value="adjust the  cnds" />
     <MESSAGE value="inject the BsModal in CategoryList.razor" />
@@ -567,7 +568,8 @@
     <MESSAGE value="updated assembly informational version to reflect latest changes" />
     <MESSAGE value="updated assembly informational version and improved button label logic in ProductUpsert component" />
     <MESSAGE value="added description, price, and special tags columns to ProductList component" />
-    <option name="LAST_COMMIT_MESSAGE" value="added description, price, and special tags columns to ProductList component" />
+    <MESSAGE value="added image upload functionality to ProductUpsert component and created Product database table" />
+    <option name="LAST_COMMIT_MESSAGE" value="added image upload functionality to ProductUpsert component and created Product database table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

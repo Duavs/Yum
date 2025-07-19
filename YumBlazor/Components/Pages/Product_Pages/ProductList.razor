@@ -37,7 +37,9 @@ else
                         <thead>
                         <tr>
                             <th>Name</th>
-                            <th></th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Special Tags</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -46,6 +48,15 @@ else
                                 <tr>
                                     <td>
                                         @obj.Name
+                                    </td>
+                                    <td>
+                                        @obj.Description
+                                    </td>
+                                    <td>
+                                        @obj.Price
+                                    </td>
+                                    <td>
+                                        @obj.SpecialTag
                                     </td>
                                     <td>
                                         <a href="@($"product/update/{obj.Id}")" class="btn btn-sm btn-primary"><i class="bi bi-pencil-fill"></i>Update</a>

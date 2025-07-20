@@ -10,9 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductList.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/ProductRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.endpoints.json" afterDir="false" />
@@ -81,6 +79,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9ad57efb44df21fa4fc98bc970d28d7293833997255c81852145bd2bd224a6d/InputFileChangeEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9e6b943d643cac6ae29dbeeeca32d5f3db4fd289d398ab6263a9c8627f5627/Array.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a6f52f75db0c77bb83f322fb52f52cef9cff6cdafbb94dfec214bab243d18/Task.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ad21a37fb9c62642a9445c29321d3d136d19fa60425b26806692bbfee3523c/Path.Unix.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/beaecdeee49d57b5c392d6d98ddb2e5a8e1d7ab1c6a9ece524b78ade32afc5/TypeUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c1cc58cc78a2d269eeb5ef89ead64de20ef815d24de2c8a762b3ef6702092/DefaultInterpolatedStringHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c2b587448e23bd69924d3d6ce2c091f8524b5e54f99b070918997a2c7540/FileSystemInfo.cs" root0="SKIP_HIGHLIGHTING" />
@@ -175,31 +174,7 @@
       <workItem from="1752760561758" duration="2884000" />
       <workItem from="1752845554329" duration="6855000" />
       <workItem from="1752919044292" duration="9057000" />
-      <workItem from="1752994459484" duration="1825000" />
-    </task>
-    <task id="LOCAL-00010" summary="update NavMenu to add Category link and remove Counter and Weather links">
-      <option name="closed" value="true" />
-      <created>1752237424961</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1752237424961</updated>
-    </task>
-    <task id="LOCAL-00011" summary="register ICategoryRepository with CategoryRepository in Program.cs">
-      <option name="closed" value="true" />
-      <created>1752237433901</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1752237433901</updated>
-    </task>
-    <task id="LOCAL-00012" summary="update assembly informational version to reflect latest changes">
-      <option name="closed" value="true" />
-      <created>1752237468884</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1752237468884</updated>
+      <workItem from="1752994459484" duration="3547000" />
     </task>
     <task id="LOCAL-00013" summary="update editorconfig and cache files for CategoryList page integration">
       <option name="closed" value="true" />
@@ -569,7 +544,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752929531699</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="added Category column to ProductList component">
+      <option name="closed" value="true" />
+      <created>1752997354071</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1752997354071</updated>
+    </task>
+    <task id="LOCAL-00060" summary="included Category data in GetAllAsync method of ProductRepository">
+      <option name="closed" value="true" />
+      <created>1752997378244</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1752997378244</updated>
+    </task>
+    <task id="LOCAL-00061" summary="enhanced image upload functionality in ProductUpsert component with preview and improved file handling">
+      <option name="closed" value="true" />
+      <created>1752997407007</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1752997407007</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,9 +578,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="adjust the  cnds" />
-    <MESSAGE value="inject the BsModal in CategoryList.razor" />
-    <MESSAGE value="created Modal component" />
     <MESSAGE value="added the common.js" />
     <MESSAGE value="created an eventcallback for confirmation of delete in the modal" />
     <MESSAGE value="injected the new js file and fix the handle of deleting category" />
@@ -604,7 +600,10 @@
     <MESSAGE value="added description, price, and special tags columns to ProductList component" />
     <MESSAGE value="added image upload functionality to ProductUpsert component and created Product database table" />
     <MESSAGE value="added Product database table and implemented image upload functionality in ProductUpsert component" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Product database table and implemented image upload functionality in ProductUpsert component" />
+    <MESSAGE value="added Category column to ProductList component" />
+    <MESSAGE value="included Category data in GetAllAsync method of ProductRepository" />
+    <MESSAGE value="enhanced image upload functionality in ProductUpsert component with preview and improved file handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="enhanced image upload functionality in ProductUpsert component with preview and improved file handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

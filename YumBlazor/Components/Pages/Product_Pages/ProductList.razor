@@ -40,6 +40,7 @@ else
                             <th>Description</th>
                             <th>Price</th>
                             <th>Special Tags</th>
+                            <th>Category</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -57,6 +58,9 @@ else
                                     </td>
                                     <td>
                                         @obj.SpecialTag
+                                    </td>
+                                    <td>
+                                        @obj.Category.Name
                                     </td>
                                     <td>
                                         <a href="@($"product/update/{obj.Id}")" class="btn btn-sm btn-primary"><i class="bi bi-pencil-fill"></i>Update</a>

@@ -10,7 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductList.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.endpoints.json" afterDir="false" />
@@ -104,26 +104,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.YumBlazor: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.YumBlazor: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver.localdb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver.localdb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.YumBlazor: http">
     <configuration name="YumBlazor: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/YumBlazor/YumBlazor.csproj" />
@@ -174,39 +174,8 @@
       <workItem from="1752760561758" duration="2884000" />
       <workItem from="1752845554329" duration="6855000" />
       <workItem from="1752919044292" duration="9057000" />
-      <workItem from="1752994459484" duration="3547000" />
-    </task>
-    <task id="LOCAL-00013" summary="update editorconfig and cache files for CategoryList page integration">
-      <option name="closed" value="true" />
-      <created>1752237475905</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1752237475905</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add Categories table with initial seed data">
-      <option name="closed" value="true" />
-      <created>1752237486582</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1752237486582</updated>
-    </task>
-    <task id="LOCAL-00015" summary="refactor CategoryList to use asynchronous loading for categories">
-      <option name="closed" value="true" />
-      <created>1752238567115</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1752238567115</updated>
-    </task>
-    <task id="LOCAL-00016" summary="refactor CategoryRepository to use asynchronous methods for CRUD operations">
-      <option name="closed" value="true" />
-      <created>1752238578548</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1752238578548</updated>
+      <workItem from="1752994459484" duration="7977000" />
+      <workItem from="1753103344701" duration="537000" />
     </task>
     <task id="LOCAL-00017" summary="refactor ICategoryRepository to use asynchronous methods for CRUD operations">
       <option name="closed" value="true" />
@@ -568,7 +537,39 @@
       <option name="project" value="LOCAL" />
       <updated>1752997407007</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="added image deletion functionality in ProductUpsert component">
+      <option name="closed" value="true" />
+      <created>1752998911817</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1752998911817</updated>
+    </task>
+    <task id="LOCAL-00063" summary="refactored ProductUpsert component to conditionally display image upload and preview functionality">
+      <option name="closed" value="true" />
+      <created>1753000178249</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1753000178249</updated>
+    </task>
+    <task id="LOCAL-00064" summary="added image deletion functionality in ProductRepository to remove associated files on product deletion">
+      <option name="closed" value="true" />
+      <created>1753003298056</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1753003298056</updated>
+    </task>
+    <task id="LOCAL-00065" summary="added Special Tag input field in ProductUpsert component">
+      <option name="closed" value="true" />
+      <created>1753003310397</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1753003310398</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,10 +579,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added the common.js" />
-    <MESSAGE value="created an eventcallback for confirmation of delete in the modal" />
-    <MESSAGE value="injected the new js file and fix the handle of deleting category" />
-    <MESSAGE value="created showing and hiding of confirmation modal" />
     <MESSAGE value="added the components.shared" />
     <MESSAGE value="updated BsModal to center dialog and change button styles" />
     <MESSAGE value="updated BsModal button styles for delete confirmation" />
@@ -603,7 +600,11 @@
     <MESSAGE value="added Category column to ProductList component" />
     <MESSAGE value="included Category data in GetAllAsync method of ProductRepository" />
     <MESSAGE value="enhanced image upload functionality in ProductUpsert component with preview and improved file handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="enhanced image upload functionality in ProductUpsert component with preview and improved file handling" />
+    <MESSAGE value="added image deletion functionality in ProductUpsert component" />
+    <MESSAGE value="refactored ProductUpsert component to conditionally display image upload and preview functionality" />
+    <MESSAGE value="added image deletion functionality in ProductRepository to remove associated files on product deletion" />
+    <MESSAGE value="added Special Tag input field in ProductUpsert component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Special Tag input field in ProductUpsert component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -638,13 +639,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor</url>
-          <line>148</line>
+          <line>158</line>
+          <properties isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+          </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor</url>
-          <line>151</line>
+          <line>161</line>
+          <properties isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+          </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/YumBlazor/Repository/ProductRepository.cs</url>
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/YumBlazor/Repository/ProductRepository.cs" containingFunctionPresentation="Method 'DeleteAsync'">
+            <startOffsets>
+              <option value="1323" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1388" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

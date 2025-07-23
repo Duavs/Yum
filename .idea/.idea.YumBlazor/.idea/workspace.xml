@@ -10,20 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/Register.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/Register.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/Login.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/Login.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,31 +157,7 @@
       <workItem from="1752919044292" duration="9057000" />
       <workItem from="1752994459484" duration="7977000" />
       <workItem from="1753103344701" duration="9402000" />
-      <workItem from="1753276352151" duration="2754000" />
-    </task>
-    <task id="LOCAL-00022" summary="Implement category form loader with conditional rendering and repository injection&#10;&#10;- Injected ICategoryRepository for data access&#10;- Added IsProcessing state to show loading indicator&#10;- Loaded category data when Id &gt; 0 (update mode)&#10;- Dynamically switched between 'Create' and 'Update' headings">
-      <option name="closed" value="true" />
-      <created>1752330370875</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1752330370875</updated>
-    </task>
-    <task id="LOCAL-00023" summary="added the services.extension in imports">
-      <option name="closed" value="true" />
-      <created>1752504241831</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1752504241831</updated>
-    </task>
-    <task id="LOCAL-00024" summary="arrange the order of the cdns and added the notification.js in the app razor">
-      <option name="closed" value="true" />
-      <created>1752504289211</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1752504289211</updated>
+      <workItem from="1753276352151" duration="4326000" />
     </task>
     <task id="LOCAL-00025" summary="make the public to private">
       <option name="closed" value="true" />
@@ -564,7 +527,31 @@
       <option name="project" value="LOCAL" />
       <updated>1753197417093</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="added role management support to Identity configuration">
+      <option name="closed" value="true" />
+      <created>1753279712560</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1753279712561</updated>
+    </task>
+    <task id="LOCAL-00072" summary="added role selection and confirmation password field to Register component">
+      <option name="closed" value="true" />
+      <created>1753279725499</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1753279725499</updated>
+    </task>
+    <task id="LOCAL-00073" summary="changes">
+      <option name="closed" value="true" />
+      <created>1753279739229</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1753279739229</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,13 +561,10 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added Product entity configuration to ApplicationDbContextModelSnapshot" />
-    <MESSAGE value="added Product management pages and repository implementation" />
     <MESSAGE value="added ProductList component with product loading and deletion functionality" />
     <MESSAGE value="added ProductRepository with CRUD operations for product management" />
     <MESSAGE value="added ProductUpsert component for creating and updating products with form handling" />
     <MESSAGE value="added IProductRepository to the service container for product management" />
-    <MESSAGE value="changes" />
     <MESSAGE value="added category selection to ProductUpsert component and updated product loading logic" />
     <MESSAGE value="updated assembly informational version to reflect latest changes" />
     <MESSAGE value="updated assembly informational version and improved button label logic in ProductUpsert component" />
@@ -599,7 +583,10 @@
     <MESSAGE value="added Product table migration and updated sourcelink and assembly info" />
     <MESSAGE value="added Product model and migration, updated assembly info, and integrated role selection in Register component" />
     <MESSAGE value="added Product migration and utility class for role management" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Product migration and utility class for role management" />
+    <MESSAGE value="added role management support to Identity configuration" />
+    <MESSAGE value="added role selection and confirmation password field to Register component" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

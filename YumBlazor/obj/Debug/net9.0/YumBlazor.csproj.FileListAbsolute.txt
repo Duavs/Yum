@@ -202,8 +202,6 @@
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/bi90losd5p-h1s4sie4z3.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/oulsvypa7r-63fj8s7r0e.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/spp3o3b0wd-0j3bgjxly4.gz
-/Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/a3qr8v3ln2-0kfqcf4p90.gz
-/Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/pspppuyngn-0kfqcf4p90.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json.cache
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/staticwebassets.development.json
@@ -261,3 +259,6 @@
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/ej9zfvkwks-7183nd47gn.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/8sshlo8ikq-fv6m00jlsj.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/8tcb7ycjb1-glrcnf2j6b.gz
+/Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/scopedcss/Components/Layout/NavBar.razor.rz.scp.css
+/Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/a3qr8v3ln2-w7o3ipvr1c.gz
+/Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/pspppuyngn-w7o3ipvr1c.gz

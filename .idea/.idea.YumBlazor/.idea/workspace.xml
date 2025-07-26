@@ -9,9 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,23 +171,7 @@
       <workItem from="1753103344701" duration="9402000" />
       <workItem from="1753276352151" duration="5007000" />
       <workItem from="1753363634241" duration="150000" />
-      <workItem from="1753450762892" duration="2837000" />
-    </task>
-    <task id="LOCAL-00028" summary="Created the IJSRuntimeExtension for the toastr success and error">
-      <option name="closed" value="true" />
-      <created>1752504477941</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1752504477941</updated>
-    </task>
-    <task id="LOCAL-00029" summary="created a function for toast success and error">
-      <option name="closed" value="true" />
-      <created>1752504501537</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1752504501537</updated>
+      <workItem from="1753450762892" duration="4286000" />
     </task>
     <task id="LOCAL-00030" summary="changes">
       <option name="closed" value="true" />
@@ -554,7 +549,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753451948448</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="added NavBar component with navigation links and user actions">
+      <option name="closed" value="true" />
+      <created>1753529230564</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1753529230564</updated>
+    </task>
+    <task id="LOCAL-00078" summary="added NavBar component to MainLayout">
+      <option name="closed" value="true" />
+      <created>1753529242635</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1753529242635</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,8 +575,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added ProductUpsert component for creating and updating products with form handling" />
-    <MESSAGE value="added IProductRepository to the service container for product management" />
     <MESSAGE value="added category selection to ProductUpsert component and updated product loading logic" />
     <MESSAGE value="updated assembly informational version to reflect latest changes" />
     <MESSAGE value="updated assembly informational version and improved button label logic in ProductUpsert component" />
@@ -589,7 +598,9 @@
     <MESSAGE value="added Login component with updated UI and functionality" />
     <MESSAGE value="changes" />
     <MESSAGE value="updated sourcelink configuration and modified MainLayout for role-based authorization" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated sourcelink configuration and modified MainLayout for role-based authorization" />
+    <MESSAGE value="added NavBar component with navigation links and user actions" />
+    <MESSAGE value="added NavBar component to MainLayout" />
+    <option name="LAST_COMMIT_MESSAGE" value="added NavBar component to MainLayout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

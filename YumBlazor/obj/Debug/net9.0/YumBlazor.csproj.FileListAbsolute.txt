@@ -157,7 +157,6 @@
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/scopedcss/bundle/YumBlazor.styles.css
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/scopedcss/projectbundle/YumBlazor.bundle.scp.css
-/Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/yxoywjgi7f-w7mf952350.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/nwi23pvv7k-bqjiyaj88i.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/6z5elzuci8-c2jlpeoesf.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/nnxh0lp919-erw9l3u2r3.gz
@@ -262,3 +261,4 @@
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/scopedcss/Components/Layout/NavBar.razor.rz.scp.css
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/a3qr8v3ln2-w7o3ipvr1c.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/pspppuyngn-w7o3ipvr1c.gz
+/Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/yxoywjgi7f-xqnchh6jub.gz

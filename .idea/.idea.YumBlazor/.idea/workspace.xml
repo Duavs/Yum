@@ -171,15 +171,7 @@
       <workItem from="1753103344701" duration="9402000" />
       <workItem from="1753276352151" duration="5007000" />
       <workItem from="1753363634241" duration="150000" />
-      <workItem from="1753450762892" duration="5766000" />
-    </task>
-    <task id="LOCAL-00031" summary="adjust the  cnds">
-      <option name="closed" value="true" />
-      <created>1752590526565</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1752590526566</updated>
+      <workItem from="1753450762892" duration="8410000" />
     </task>
     <task id="LOCAL-00032" summary="inject the BsModal in CategoryList.razor">
       <option name="closed" value="true" />
@@ -565,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753542531082</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="refactored MainLayout to use AuthorizeView for role-based sidebar rendering">
+      <option name="closed" value="true" />
+      <created>1753544058445</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1753544058445</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +575,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="updated assembly informational version to reflect latest changes" />
     <MESSAGE value="updated assembly informational version and improved button label logic in ProductUpsert component" />
     <MESSAGE value="added description, price, and special tags columns to ProductList component" />
     <MESSAGE value="added image upload functionality to ProductUpsert component and created Product database table" />
@@ -600,7 +599,8 @@
     <MESSAGE value="added NavBar component with navigation links and user actions" />
     <MESSAGE value="added NavBar component to MainLayout" />
     <MESSAGE value="updated NavBar component with correct image path and modified navigation links for logout, registration, and login" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated NavBar component with correct image path and modified navigation links for logout, registration, and login" />
+    <MESSAGE value="refactored MainLayout to use AuthorizeView for role-based sidebar rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored MainLayout to use AuthorizeView for role-based sidebar rendering" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

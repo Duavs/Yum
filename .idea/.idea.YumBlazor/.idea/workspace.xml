@@ -11,8 +11,6 @@
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,15 +163,7 @@
       <workItem from="1753450762892" duration="9851000" />
       <workItem from="1753582882963" duration="4769000" />
       <workItem from="1753712145674" duration="9588000" />
-      <workItem from="1753878776374" duration="453000" />
-    </task>
-    <task id="LOCAL-00050" summary="added ProductUpsert component for creating and updating products with form handling">
-      <option name="closed" value="true" />
-      <created>1752848273419</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1752848273420</updated>
+      <workItem from="1753878776374" duration="1901000" />
     </task>
     <task id="LOCAL-00051" summary="added IProductRepository to the service container for product management">
       <option name="closed" value="true" />
@@ -559,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753800594905</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="populate all categories">
+      <option name="closed" value="true" />
+      <created>1753879285573</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1753879285573</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +567,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added role management support to Identity configuration" />
     <MESSAGE value="added role selection and confirmation password field to Register component" />
     <MESSAGE value="added Login component with updated UI and functionality" />
     <MESSAGE value="updated sourcelink configuration and modified MainLayout for role-based authorization" />
@@ -594,7 +591,8 @@
     <MESSAGE value="updated Home.razor to enhance product display with improved styling and added description" />
     <MESSAGE value="adjust layout" />
     <MESSAGE value="adjust margin layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust margin layout" />
+    <MESSAGE value="populate all categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="populate all categories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

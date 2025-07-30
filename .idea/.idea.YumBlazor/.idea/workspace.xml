@@ -10,30 +10,9 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryUpsert.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductList.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjimswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjimswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.build.json.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/staticwebassets.development.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,26 +88,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.YumBlazor: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.YumBlazor: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver.localdb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver.localdb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.YumBlazor: http">
     <configuration name="YumBlazor: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/YumBlazor/YumBlazor.csproj" />
@@ -185,47 +164,8 @@
       <workItem from="1753363634241" duration="150000" />
       <workItem from="1753450762892" duration="9851000" />
       <workItem from="1753582882963" duration="4769000" />
-      <workItem from="1753712145674" duration="9015000" />
-    </task>
-    <task id="LOCAL-00045" summary="added Product repository and CRUD operations, updated database context and UI for product management">
-      <option name="closed" value="true" />
-      <created>1752848201317</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1752848201317</updated>
-    </task>
-    <task id="LOCAL-00046" summary="added Product entity configuration to ApplicationDbContextModelSnapshot">
-      <option name="closed" value="true" />
-      <created>1752848240698</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1752848240698</updated>
-    </task>
-    <task id="LOCAL-00047" summary="added Product management pages and repository implementation">
-      <option name="closed" value="true" />
-      <created>1752848250534</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1752848250534</updated>
-    </task>
-    <task id="LOCAL-00048" summary="added ProductList component with product loading and deletion functionality">
-      <option name="closed" value="true" />
-      <created>1752848259327</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1752848259327</updated>
-    </task>
-    <task id="LOCAL-00049" summary="added ProductRepository with CRUD operations for product management">
-      <option name="closed" value="true" />
-      <created>1752848267292</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1752848267292</updated>
+      <workItem from="1753712145674" duration="9588000" />
+      <workItem from="1753878776374" duration="453000" />
     </task>
     <task id="LOCAL-00050" summary="added ProductUpsert component for creating and updating products with form handling">
       <option name="closed" value="true" />
@@ -579,7 +519,47 @@
       <option name="project" value="LOCAL" />
       <updated>1753798912978</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="added Product migration and updated UI components for improved layout and styling">
+      <option name="closed" value="true" />
+      <created>1753800535792</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1753800535792</updated>
+    </task>
+    <task id="LOCAL-00095" summary="updated margin styling for CategoryUpsert component">
+      <option name="closed" value="true" />
+      <created>1753800546859</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1753800546860</updated>
+    </task>
+    <task id="LOCAL-00096" summary="updated Home.razor to enhance product display with improved styling and added description">
+      <option name="closed" value="true" />
+      <created>1753800555886</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1753800555886</updated>
+    </task>
+    <task id="LOCAL-00097" summary="adjust layout">
+      <option name="closed" value="true" />
+      <created>1753800580289</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1753800580289</updated>
+    </task>
+    <task id="LOCAL-00098" summary="adjust margin layout">
+      <option name="closed" value="true" />
+      <created>1753800594905</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1753800594905</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,11 +569,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="styled Special Tag display in ProductList component with badge" />
-    <MESSAGE value="styled Register component for improved layout and user experience" />
-    <MESSAGE value="added Product table migration and updated sourcelink and assembly info" />
-    <MESSAGE value="added Product model and migration, updated assembly info, and integrated role selection in Register component" />
-    <MESSAGE value="added Product migration and utility class for role management" />
     <MESSAGE value="added role management support to Identity configuration" />
     <MESSAGE value="added role selection and confirmation password field to Register component" />
     <MESSAGE value="added Login component with updated UI and functionality" />
@@ -614,7 +589,12 @@
     <MESSAGE value="added loading state and product retrieval in Home.razor" />
     <MESSAGE value="added Product migration and updated Home page to display product details" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="added Product migration and updated UI components for improved layout and styling" />
+    <MESSAGE value="updated margin styling for CategoryUpsert component" />
+    <MESSAGE value="updated Home.razor to enhance product display with improved styling and added description" />
+    <MESSAGE value="adjust layout" />
+    <MESSAGE value="adjust margin layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust margin layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -163,15 +163,7 @@
       <workItem from="1753450762892" duration="9851000" />
       <workItem from="1753582882963" duration="4769000" />
       <workItem from="1753712145674" duration="9588000" />
-      <workItem from="1753878776374" duration="6267000" />
-    </task>
-    <task id="LOCAL-00053" summary="added category selection to ProductUpsert component and updated product loading logic">
-      <option name="closed" value="true" />
-      <created>1752852412319</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1752852412319</updated>
+      <workItem from="1753878776374" duration="13248000" />
     </task>
     <task id="LOCAL-00054" summary="updated assembly informational version to reflect latest changes">
       <option name="closed" value="true" />
@@ -557,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753881985353</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="display only selected category and display all category if All is selected">
+      <option name="closed" value="true" />
+      <created>1753886177633</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1753886177633</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +567,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="updated sourcelink configuration and modified MainLayout for role-based authorization" />
     <MESSAGE value="added NavBar component with navigation links and user actions" />
     <MESSAGE value="added NavBar component to MainLayout" />
     <MESSAGE value="updated NavBar component with correct image path and modified navigation links for logout, registration, and login" />
@@ -592,7 +591,8 @@
     <MESSAGE value="populate all categories" />
     <MESSAGE value=" changes" />
     <MESSAGE value="add binding to searching" />
-    <option name="LAST_COMMIT_MESSAGE" value="add binding to searching" />
+    <MESSAGE value="display only selected category and display all category if All is selected" />
+    <option name="LAST_COMMIT_MESSAGE" value="display only selected category and display all category if All is selected" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

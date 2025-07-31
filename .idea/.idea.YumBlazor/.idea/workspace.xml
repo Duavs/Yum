@@ -9,8 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,15 +162,7 @@
       <workItem from="1753450762892" duration="9851000" />
       <workItem from="1753582882963" duration="4769000" />
       <workItem from="1753712145674" duration="9588000" />
-      <workItem from="1753878776374" duration="13248000" />
-    </task>
-    <task id="LOCAL-00054" summary="updated assembly informational version to reflect latest changes">
-      <option name="closed" value="true" />
-      <created>1752852422577</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1752852422577</updated>
+      <workItem from="1753878776374" duration="13507000" />
     </task>
     <task id="LOCAL-00055" summary="updated assembly informational version and improved button label logic in ProductUpsert component">
       <option name="closed" value="true" />
@@ -557,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753886177633</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="added a class Active on selected category via function.">
+      <option name="closed" value="true" />
+      <created>1753964741234</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1753964741234</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +566,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added NavBar component with navigation links and user actions" />
     <MESSAGE value="added NavBar component to MainLayout" />
     <MESSAGE value="updated NavBar component with correct image path and modified navigation links for logout, registration, and login" />
     <MESSAGE value="refactored MainLayout to use AuthorizeView for role-based sidebar rendering" />
@@ -592,7 +590,8 @@
     <MESSAGE value=" changes" />
     <MESSAGE value="add binding to searching" />
     <MESSAGE value="display only selected category and display all category if All is selected" />
-    <option name="LAST_COMMIT_MESSAGE" value="display only selected category and display all category if All is selected" />
+    <MESSAGE value="added a class Active on selected category via function." />
+    <option name="LAST_COMMIT_MESSAGE" value="added a class Active on selected category via function." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

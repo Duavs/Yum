@@ -9,8 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/IShoppingCartRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YumBlazor/Repository/ShoppingCartRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,15 +164,7 @@
       <workItem from="1753450762892" duration="9851000" />
       <workItem from="1753582882963" duration="4769000" />
       <workItem from="1753712145674" duration="9588000" />
-      <workItem from="1753878776374" duration="16975000" />
-    </task>
-    <task id="LOCAL-00058" summary="added Product database table and implemented image upload functionality in ProductUpsert component">
-      <option name="closed" value="true" />
-      <created>1752929531699</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1752929531699</updated>
+      <workItem from="1753878776374" duration="21977000" />
     </task>
     <task id="LOCAL-00059" summary="added Category column to ProductList component">
       <option name="closed" value="true" />
@@ -557,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753966453803</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="create interface forS shoppingcartrepository">
+      <option name="closed" value="true" />
+      <created>1753970629371</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1753970629371</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +568,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="implemented conditional NavBar visibility based on user authentication and role" />
     <MESSAGE value="implemented role-based visibility in NavBar using AuthorizeView for user authentication" />
     <MESSAGE value="enhanced styling for various components including buttons, error boundaries, and jumbotron" />
     <MESSAGE value="enhanced Home page layout with search functionality and card display for food items" />
@@ -592,7 +592,8 @@
     <MESSAGE value="Cart UI" />
     <MESSAGE value="Added the ShoppingCart Model to db" />
     <MESSAGE value="Created a ShoppingCart Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a ShoppingCart Model" />
+    <MESSAGE value="create interface forS shoppingcartrepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="create interface forS shoppingcartrepository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

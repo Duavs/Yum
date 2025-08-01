@@ -1,11 +1,11 @@
 ﻿@page "/"
 @using System.Globalization
-@inject IProductRepository _productRepository
-@inject ICategoryRepository _categoryRepository
 @inject AuthenticationStateProvider  _AuthenticationStateProvider
 @inject IJSRuntime _JS
 @inject NavigationManager _NavigationManager
 @inject IShoppingCartRepository _cartRepository
+@inject IProductRepository _productRepository
+@inject ICategoryRepository _categoryRepository
 @if (IsProcessing)
 {
     <div class="position-absolute w-100 vh-100 d-flex flex-column  align-items-center bg-white justify-content-center"> 
@@ -154,8 +154,8 @@ else
 
         if (!authenticated)
         {
-            _NavigationManager.NavigateTo("account/login");
-        }
+            _NavigationManager.NavigateTo(Routes.Login);
+        }   
         else
         {
             var result = await 
@@ -170,5 +170,11 @@ else
                 _JS?.ToastrError("Error adding product to cart. Please try again.");
             }
         }
+    }
+    
+    public static class Routes
+    {
+        public const string Login = "/Login";
+        public const string Register = "/Account/Register";
     }
 }

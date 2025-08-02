@@ -11,18 +11,6 @@
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,15 +164,7 @@
       <workItem from="1753450762892" duration="9851000" />
       <workItem from="1753582882963" duration="4769000" />
       <workItem from="1753712145674" duration="9588000" />
-      <workItem from="1753878776374" duration="49835000" />
-    </task>
-    <task id="LOCAL-00071" summary="added role management support to Identity configuration">
-      <option name="closed" value="true" />
-      <created>1753279712560</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1753279712561</updated>
+      <workItem from="1753878776374" duration="52809000" />
     </task>
     <task id="LOCAL-00072" summary="added role selection and confirmation password field to Register component">
       <option name="closed" value="true" />
@@ -570,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754103726911</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="update the image of the cart">
+      <option name="closed" value="true" />
+      <created>1754122948384</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1754122948385</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +579,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="updated margin styling for CategoryUpsert component" />
     <MESSAGE value="updated Home.razor to enhance product display with improved styling and added description" />
     <MESSAGE value="adjust layout" />
     <MESSAGE value="adjust margin layout" />
@@ -616,7 +603,8 @@
     <MESSAGE value="adding the orderheader and orderdetail to database" />
     <MESSAGE value="created OrderDetail.cs model" />
     <MESSAGE value="create OrderHeader.cs model" />
-    <option name="LAST_COMMIT_MESSAGE" value="create OrderHeader.cs model" />
+    <MESSAGE value="update the image of the cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the image of the cart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

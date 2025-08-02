@@ -60,41 +60,45 @@ else
 		</div>
 		<div class="col-lg-6 col-12 p-4">
 			<div class="card">
-				<div class="card-header text-success text-center display-6">
-					Pickup Details
-				</div>
+			<div class="card-header text-success text-center display-6">
+				Pickup Details
+			</div>
+			<EditForm Model="OrderHeader" FormName="CartForm" OnValidSubmit="ProcessOrderCreation">
+				<DataAnnotationsValidator/>
 				<div class="card-body">
-					<form>
-						<div class="form-group">
-							<label>Name</label>
-							<input type="text" class="form-control"/>
-						</div>
-						<div class="form-group">
-							<label>Email</label>
-							<input type="text" class="form-control"/>
-						</div>
-						<div class="form-group">
-							<label>Phone</label>
-							<input type="text" class="form-control"/>
-						</div>
+					<div class="form-group">
+						<label>Name</label>
+						<InputText @bind-Value="OrderHeader.Name" type="text" class="form-control"/>
+						<ValidatioMessage For="@(() => OrderHeader.Name)"/>
+					</div>
+					<div class="form-group">
+						<label>Email</label>
+						<InputText @bind-Value="OrderHeader.Email" type="text" class="form-control"/>
+						<ValidatioMessage For="@(() => OrderHeader.Email)"/>
+					</div>
+					<div class="form-group">
+						<label>Phone</label>
+						<InputText @bind-Value="OrderHeader.PhoneNumber" type="text" class="form-control"/>
+						<ValidatioMessage For="@(() => OrderHeader.PhoneNumber)"/>
+					</div>
 
-					</form>
 					<div class="card mt-4 bg-light">
 						<div class="card-body">
 							<h4>
-								Grand Total: --$$--
+								Grand Total: @OrderHeader.OrderTotal.ToString("C", CultureInfo.GetCultureInfo("en-PH"));
 							</h4>
 							<h4>
-								No. of Items: --COUNT--
+								No. of Items: @TotalItems
 							</h4>
 						</div>
 
 					</div>
 				</div>
-
-				<button class="btn btn-success m-4">
+				<button type="submit" class="btn btn-success m-4">
 					Looks Good? Place Order!
 				</button>
+			</EditForm>
+				
 			</div>
 		</div>
 	</div>
@@ -104,7 +108,9 @@ else
 {
 	private IEnumerable<ShoppingCart> ShoppingCarts = new List<ShoppingCart>();
 	private bool IsProcessing = true;
-	
+	[SupplyParameterFromForm] public OrderHeader OrderHeader { get; set; } = new OrderHeader();
+	private int TotalItems { get; set; } = 0;
+
 	protected override async Task OnAfterRenderAsync(bool firstRender)
 	{
 		if (firstRender)
@@ -131,5 +137,10 @@ else
 			_cartRepository.UpdateCartAsync(user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value, productId, updateBy);
 		await LoadCart();
 
+	}
+
+	private async Task ProcessOrderCreation()
+	{
+		
 	}
 }

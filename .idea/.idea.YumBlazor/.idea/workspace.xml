@@ -9,10 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Data/OrderDetail.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YumBlazor/Data/OrderHeader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,31 +176,7 @@
       <workItem from="1753450762892" duration="9851000" />
       <workItem from="1753582882963" duration="4769000" />
       <workItem from="1753712145674" duration="9588000" />
-      <workItem from="1753878776374" duration="41855000" />
-    </task>
-    <task id="LOCAL-00068" summary="added Product table migration and updated sourcelink and assembly info">
-      <option name="closed" value="true" />
-      <created>1753194270553</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1753194270553</updated>
-    </task>
-    <task id="LOCAL-00069" summary="added Product model and migration, updated assembly info, and integrated role selection in Register component">
-      <option name="closed" value="true" />
-      <created>1753197406989</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1753197406989</updated>
-    </task>
-    <task id="LOCAL-00070" summary="added Product migration and utility class for role management">
-      <option name="closed" value="true" />
-      <created>1753197417093</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1753197417093</updated>
+      <workItem from="1753878776374" duration="49835000" />
     </task>
     <task id="LOCAL-00071" summary="added role management support to Identity configuration">
       <option name="closed" value="true" />
@@ -560,7 +546,31 @@
       <option name="project" value="LOCAL" />
       <updated>1754099882820</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="adding the orderheader and orderdetail to database">
+      <option name="closed" value="true" />
+      <created>1754103685470</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1754103685470</updated>
+    </task>
+    <task id="LOCAL-00118" summary="created OrderDetail.cs model">
+      <option name="closed" value="true" />
+      <created>1754103710649</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1754103710649</updated>
+    </task>
+    <task id="LOCAL-00119" summary="create OrderHeader.cs model">
+      <option name="closed" value="true" />
+      <created>1754103726911</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1754103726911</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,9 +591,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added Product migration and updated Home page to display product details" />
-    <MESSAGE value="changes" />
-    <MESSAGE value="added Product migration and updated UI components for improved layout and styling" />
     <MESSAGE value="updated margin styling for CategoryUpsert component" />
     <MESSAGE value="updated Home.razor to enhance product display with improved styling and added description" />
     <MESSAGE value="adjust layout" />
@@ -606,7 +613,10 @@
     <MESSAGE value="added new route" />
     <MESSAGE value="configure the cart section" />
     <MESSAGE value="change currency to PHP" />
-    <option name="LAST_COMMIT_MESSAGE" value="change currency to PHP" />
+    <MESSAGE value="adding the orderheader and orderdetail to database" />
+    <MESSAGE value="created OrderDetail.cs model" />
+    <MESSAGE value="create OrderHeader.cs model" />
+    <option name="LAST_COMMIT_MESSAGE" value="create OrderHeader.cs model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

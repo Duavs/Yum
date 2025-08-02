@@ -9,8 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/IOrderRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Utility/SD.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,23 +164,7 @@
       <workItem from="1753450762892" duration="9851000" />
       <workItem from="1753582882963" duration="4769000" />
       <workItem from="1753712145674" duration="9588000" />
-      <workItem from="1753878776374" duration="59277000" />
-    </task>
-    <task id="LOCAL-00075" summary="changes">
-      <option name="closed" value="true" />
-      <created>1753451435184</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1753451435185</updated>
-    </task>
-    <task id="LOCAL-00076" summary="updated sourcelink configuration and modified MainLayout for role-based authorization">
-      <option name="closed" value="true" />
-      <created>1753451948448</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1753451948448</updated>
+      <workItem from="1753878776374" duration="60558000" />
     </task>
     <task id="LOCAL-00077" summary="added NavBar component with navigation links and user actions">
       <option name="closed" value="true" />
@@ -558,7 +542,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754141093887</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="added status for the item">
+      <option name="closed" value="true" />
+      <created>1754142774294</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1754142774294</updated>
+    </task>
+    <task id="LOCAL-00125" summary="implemented the status">
+      <option name="closed" value="true" />
+      <created>1754142799133</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1754142799133</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,8 +579,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="populate all categories" />
-    <MESSAGE value=" changes" />
     <MESSAGE value="add binding to searching" />
     <MESSAGE value="display only selected category and display all category if All is selected" />
     <MESSAGE value="added a class Active on selected category via function." />
@@ -604,7 +602,9 @@
     <MESSAGE value="fix the pickup details" />
     <MESSAGE value="configure the total amount of item added to cart" />
     <MESSAGE value="added userId" />
-    <option name="LAST_COMMIT_MESSAGE" value="added userId" />
+    <MESSAGE value="added status for the item" />
+    <MESSAGE value="implemented the status" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented the status" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

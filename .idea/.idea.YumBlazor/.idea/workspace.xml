@@ -10,14 +10,12 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/Login.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/Login.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
@@ -179,31 +177,7 @@
       <workItem from="1753450762892" duration="9851000" />
       <workItem from="1753582882963" duration="4769000" />
       <workItem from="1753712145674" duration="9588000" />
-      <workItem from="1753878776374" duration="30483000" />
-    </task>
-    <task id="LOCAL-00063" summary="refactored ProductUpsert component to conditionally display image upload and preview functionality">
-      <option name="closed" value="true" />
-      <created>1753000178249</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1753000178249</updated>
-    </task>
-    <task id="LOCAL-00064" summary="added image deletion functionality in ProductRepository to remove associated files on product deletion">
-      <option name="closed" value="true" />
-      <created>1753003298056</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1753003298056</updated>
-    </task>
-    <task id="LOCAL-00065" summary="added Special Tag input field in ProductUpsert component">
-      <option name="closed" value="true" />
-      <created>1753003310397</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1753003310398</updated>
+      <workItem from="1753878776374" duration="38231000" />
     </task>
     <task id="LOCAL-00066" summary="styled Special Tag display in ProductList component with badge">
       <option name="closed" value="true" />
@@ -573,7 +547,31 @@
       <option name="project" value="LOCAL" />
       <updated>1754022237578</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="update the Cart.razor">
+      <option name="closed" value="true" />
+      <created>1754031919865</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1754031919865</updated>
+    </task>
+    <task id="LOCAL-00113" summary="added product and category interface">
+      <option name="closed" value="true" />
+      <created>1754031953313</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1754031953313</updated>
+    </task>
+    <task id="LOCAL-00114" summary="added new route">
+      <option name="closed" value="true" />
+      <created>1754031965439</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1754031965439</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,9 +592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added Product table migration and updated NavBar with Cart link" />
-    <MESSAGE value="Added the cart page" />
-    <MESSAGE value="added route for the cart page" />
     <MESSAGE value="added duplicate import for IRepository in _Imports.razor" />
     <MESSAGE value="added loading state and product retrieval in Home.razor" />
     <MESSAGE value="added Product migration and updated Home page to display product details" />
@@ -619,7 +614,10 @@
     <MESSAGE value="configure the ShoppingCartRepository.cs" />
     <MESSAGE value="logic in adding item in cart" />
     <MESSAGE value="fix minor type" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix minor type" />
+    <MESSAGE value="update the Cart.razor" />
+    <MESSAGE value="added product and category interface" />
+    <MESSAGE value="added new route" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new route" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

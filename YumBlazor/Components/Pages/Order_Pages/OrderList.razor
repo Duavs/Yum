@@ -1,9 +1,13 @@
 @page "/order/list"
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authorization
+@using YumBlazor.Utility
 @inject IOrderRepository _orderRepository
-
+@inject NavigationManager _NavigationManager
+@attribute [Authorize]
 @if (IsProcessing)
 {
-    <div class="position-absolute w-75 d-flex flex-column  align-items-center bg-white justify-content-center"> 
+    <div class="position-absolute w-100 vh-100 d-flex flex-column  align-items-center bg-white justify-content-center"> 
         <img src="lib/images/loading.gif" alt="Loading..." class="img-fluid" />
     </div>
 }
@@ -64,12 +68,13 @@ else
 @code {
     private bool IsProcessing { get; set; } = true;
     private IEnumerable<OrderHeader> OrderHeaders { get; set; } = new List<OrderHeader>();
-   
+    private bool? IsAdmin { get; set; }
+    private string? UserId { get; set; }
+    [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
+    
     protected override async Task OnInitializedAsync()
     {
-        // IsProcessing = true; in OnInitializedAsync Version
-        // await LoadCategories();
-        // IsProcessing = false;
+        
     }
     
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -85,7 +90,28 @@ else
 
     private async Task LoadOrderHeaders()
     {
-        OrderHeaders = await _orderRepository.GetAllAsync();
+        IsProcessing = true;
+        StateHasChanged();
+        await CheckAuthorization();
+        @if(IsAdmin == true)
+        {
+            OrderHeaders = await _orderRepository.GetAllAsync();
+        }
+        else
+        {
+            OrderHeaders = await _orderRepository.GetAllAsync(UserId);
+        }
+        IsProcessing = false;
+    }
+    
+    
+    private async Task CheckAuthorization()
+    {
+        var authState = await AuthenticationState;
+        var user = authState?.User;
+
+        IsAdmin = user?.IsInRole(SD.Role_Admin);
+        UserId =  user?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
     }
 
 }

@@ -9,13 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Order_Pages/OrderList.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Utility/SD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavMenu.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
@@ -179,31 +181,7 @@
       <workItem from="1753582882963" duration="4769000" />
       <workItem from="1753712145674" duration="9588000" />
       <workItem from="1753878776374" duration="66201000" />
-      <workItem from="1754185237172" duration="3652000" />
-    </task>
-    <task id="LOCAL-00081" summary="implemented conditional NavBar visibility based on user authentication and role">
-      <option name="closed" value="true" />
-      <created>1753579845713</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1753579845713</updated>
-    </task>
-    <task id="LOCAL-00082" summary="changes">
-      <option name="closed" value="true" />
-      <created>1753579856633</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1753579856633</updated>
-    </task>
-    <task id="LOCAL-00083" summary="implemented role-based visibility in NavBar using AuthorizeView for user authentication">
-      <option name="closed" value="true" />
-      <created>1753582800660</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1753582800660</updated>
+      <workItem from="1754185237172" duration="8942000" />
     </task>
     <task id="LOCAL-00084" summary="enhanced styling for various components including buttons, error boundaries, and jumbotron">
       <option name="closed" value="true" />
@@ -573,7 +551,31 @@
       <option name="project" value="LOCAL" />
       <updated>1754188783838</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="added UserId in the DB">
+      <option name="closed" value="true" />
+      <created>1754190852887</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1754190852887</updated>
+    </task>
+    <task id="LOCAL-00131" summary="added ConvertShoppingCartListToOrderDetails">
+      <option name="closed" value="true" />
+      <created>1754190869574</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1754190869574</updated>
+    </task>
+    <task id="LOCAL-00132" summary="configure the ProcessOrderCreation">
+      <option name="closed" value="true" />
+      <created>1754190898455</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1754190898455</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,9 +596,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added the ShoppingCart Model to db" />
-    <MESSAGE value="Created a ShoppingCart Model" />
-    <MESSAGE value="create interface forS shoppingcartrepository" />
     <MESSAGE value="added the IShoppingCartRepository interface in Program.cs" />
     <MESSAGE value="configure the ShoppingCartRepository.cs" />
     <MESSAGE value="logic in adding item in cart" />
@@ -619,7 +618,10 @@
     <MESSAGE value="added the interface OrderRepository" />
     <MESSAGE value="created order repository" />
     <MESSAGE value="added new component. OrderConfirmation.razor" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new component. OrderConfirmation.razor" />
+    <MESSAGE value="added UserId in the DB" />
+    <MESSAGE value="added ConvertShoppingCartListToOrderDetails" />
+    <MESSAGE value="configure the ProcessOrderCreation" />
+    <option name="LAST_COMMIT_MESSAGE" value="configure the ProcessOrderCreation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -709,6 +711,11 @@
           <url>file://$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor</url>
           <line>171</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor</url>
+          <line>12</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

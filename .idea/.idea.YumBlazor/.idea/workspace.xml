@@ -10,7 +10,20 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Order_Pages/OrderDetials.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Order_Pages/OrderDetials.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/wwwroot/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/wwwroot/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,15 +180,7 @@
       <workItem from="1753712145674" duration="9588000" />
       <workItem from="1753878776374" duration="66201000" />
       <workItem from="1754185237172" duration="17083000" />
-      <workItem from="1754293653648" duration="8140000" />
-    </task>
-    <task id="LOCAL-00092" summary="added Product migration and updated Home page to display product details">
-      <option name="closed" value="true" />
-      <created>1753798901244</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1753798901244</updated>
+      <workItem from="1754293653648" duration="8658000" />
     </task>
     <task id="LOCAL-00093" summary="changes">
       <option name="closed" value="true" />
@@ -561,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754315483296</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="added authentication">
+      <option name="closed" value="true" />
+      <created>1754318006912</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1754318006912</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +595,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="change currency to PHP" />
     <MESSAGE value="adding the orderheader and orderdetail to database" />
     <MESSAGE value="created OrderDetail.cs model" />
     <MESSAGE value="create OrderHeader.cs model" />
@@ -607,7 +619,8 @@
     <MESSAGE value="changes" />
     <MESSAGE value="added status in order details" />
     <MESSAGE value="fix the icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix the icons" />
+    <MESSAGE value="added authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="added authentication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

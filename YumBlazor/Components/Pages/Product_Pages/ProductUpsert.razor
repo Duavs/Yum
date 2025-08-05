@@ -159,8 +159,8 @@ else
     private async Task LoadFiles(InputFileChangeEventArgs e)
     {
         IsProcessing = true;
-
         var file = e.File;
+        System.IO.FileInfo fileInfo = new(file.Name);
         var extension = Path.GetExtension(file.Name); // safe way to get extension
         var newFileName = $"{Guid.NewGuid()}{extension}";
 

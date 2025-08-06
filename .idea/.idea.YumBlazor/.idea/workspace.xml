@@ -10,11 +10,19 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Home.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,39 +181,7 @@
       <workItem from="1754185237172" duration="17083000" />
       <workItem from="1754293653648" duration="10793000" />
       <workItem from="1754397353666" duration="4150000" />
-      <workItem from="1754492548464" duration="1222000" />
-    </task>
-    <task id="LOCAL-00098" summary="adjust margin layout">
-      <option name="closed" value="true" />
-      <created>1753800594905</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1753800594905</updated>
-    </task>
-    <task id="LOCAL-00099" summary="populate all categories">
-      <option name="closed" value="true" />
-      <created>1753879285573</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1753879285573</updated>
-    </task>
-    <task id="LOCAL-00100" summary=" changes">
-      <option name="closed" value="true" />
-      <created>1753881018532</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1753881018532</updated>
-    </task>
-    <task id="LOCAL-00101" summary="add binding to searching">
-      <option name="closed" value="true" />
-      <created>1753881985353</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1753881985353</updated>
+      <workItem from="1754492548464" duration="2780000" />
     </task>
     <task id="LOCAL-00102" summary="display only selected category and display all category if All is selected">
       <option name="closed" value="true" />
@@ -567,7 +543,39 @@
       <option name="project" value="LOCAL" />
       <updated>1754403799672</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="remove button">
+      <option name="closed" value="true" />
+      <created>1754493857809</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1754493857809</updated>
+    </task>
+    <task id="LOCAL-00148" summary="added radzen html editor">
+      <option name="closed" value="true" />
+      <created>1754493881760</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1754493881760</updated>
+    </task>
+    <task id="LOCAL-00149" summary="apply the standard theme in radzen">
+      <option name="closed" value="true" />
+      <created>1754494691482</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1754494691482</updated>
+    </task>
+    <task id="LOCAL-00150" summary="remove duplicate element">
+      <option name="closed" value="true" />
+      <created>1754495521552</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1754495521552</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,10 +596,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="configure the total amount of item added to cart" />
-    <MESSAGE value="added userId" />
-    <MESSAGE value="added status for the item" />
-    <MESSAGE value="implemented the status" />
     <MESSAGE value="Created order repository interface" />
     <MESSAGE value="added the interface OrderRepository" />
     <MESSAGE value="created order repository" />
@@ -613,7 +617,11 @@
     <MESSAGE value="added Radzen theme and scripts" />
     <MESSAGE value="implement simple radzen button" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="remove button" />
+    <MESSAGE value="added radzen html editor" />
+    <MESSAGE value="apply the standard theme in radzen" />
+    <MESSAGE value="remove duplicate element" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove duplicate element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

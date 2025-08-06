@@ -33,9 +33,10 @@ else
                         <ValidationMessage For="@(()=> Product.Name)"/>
                     </div>
                     <div class="form-floating py-3 col-12">
-                        <InputText @bind-value="Product.Description" class="form-control" id="Description" placeholder="Description"/>
+                        <RadzenHtmlEditor @bind-Value=@Product.Description style="height: 300px;">
+                        </RadzenHtmlEditor>
                         <label for="Name">Description</label>
-                        <ValidationMessage For="@(()=> Product.Description)"/>
+                        <ValidationMessage For="@(() => Product.Description)"/>
                     </div>
                     <div class="form-floating py-3 col-12">
                         <InputText @bind-value="Product.SpecialTag" class="form-control" id="SpecialTag" placeholder="Special Tag"/>

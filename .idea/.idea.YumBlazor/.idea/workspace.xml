@@ -10,7 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Product_Pages/ProductUpsert.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Order_Pages/OrderList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Order_Pages/OrderList.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
@@ -181,15 +181,7 @@
       <workItem from="1754185237172" duration="17083000" />
       <workItem from="1754293653648" duration="10793000" />
       <workItem from="1754397353666" duration="4150000" />
-      <workItem from="1754492548464" duration="2780000" />
-    </task>
-    <task id="LOCAL-00102" summary="display only selected category and display all category if All is selected">
-      <option name="closed" value="true" />
-      <created>1753886177633</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1753886177633</updated>
+      <workItem from="1754492548464" duration="6176000" />
     </task>
     <task id="LOCAL-00103" summary="added a class Active on selected category via function.">
       <option name="closed" value="true" />
@@ -575,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754495521552</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="changes">
+      <option name="closed" value="true" />
+      <created>1754495551515</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1754495551516</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +608,6 @@
     <MESSAGE value="created OrderList component" />
     <MESSAGE value="created OrderDetials.razor component" />
     <MESSAGE value="populate the need data" />
-    <MESSAGE value="changes" />
     <MESSAGE value="added status in order details" />
     <MESSAGE value="fix the icons" />
     <MESSAGE value="added authentication" />
@@ -621,7 +620,8 @@
     <MESSAGE value="added radzen html editor" />
     <MESSAGE value="apply the standard theme in radzen" />
     <MESSAGE value="remove duplicate element" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove duplicate element" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -709,7 +709,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/YumBlazor/Components/Pages/Order_Pages/OrderList.razor</url>
-          <line>106</line>
+          <line>90</line>
           <properties isMultiMethodBreakpoint="true">
             <option name="multiMethodBreakpoint" value="true" />
           </properties>

@@ -9,21 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/YumBlazor/Services/SharedStateService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/IShoppingCartRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/IRepository/IShoppingCartRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/ShoppingCartRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/ShoppingCartRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/ref/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/refint/YumBlazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,31 +170,7 @@
       <workItem from="1754293653648" duration="10793000" />
       <workItem from="1754397353666" duration="4150000" />
       <workItem from="1754492548464" duration="7932000" />
-      <workItem from="1754667315399" duration="968000" />
-    </task>
-    <task id="LOCAL-00105" summary="Added the ShoppingCart Model to db">
-      <option name="closed" value="true" />
-      <created>1753966434708</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1753966434708</updated>
-    </task>
-    <task id="LOCAL-00106" summary="Created a ShoppingCart Model">
-      <option name="closed" value="true" />
-      <created>1753966453803</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1753966453803</updated>
-    </task>
-    <task id="LOCAL-00107" summary="create interface forS shoppingcartrepository">
-      <option name="closed" value="true" />
-      <created>1753970629371</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1753970629371</updated>
+      <workItem from="1754667315399" duration="2242000" />
     </task>
     <task id="LOCAL-00108" summary="added the IShoppingCartRepository interface in Program.cs">
       <option name="closed" value="true" />
@@ -577,7 +540,31 @@
       <option name="project" value="LOCAL" />
       <updated>1754667351434</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="added the total count of in the cart">
+      <option name="closed" value="true" />
+      <created>1754668435311</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1754668435311</updated>
+    </task>
+    <task id="LOCAL-00155" summary="added a method to count the total item in the cart">
+      <option name="closed" value="true" />
+      <created>1754668522664</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1754668522664</updated>
+    </task>
+    <task id="LOCAL-00156" summary="added a new singletone service called SharedStateService.cs">
+      <option name="closed" value="true" />
+      <created>1754669569305</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1754669569305</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,9 +585,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added the interface OrderRepository" />
-    <MESSAGE value="created order repository" />
-    <MESSAGE value="added new component. OrderConfirmation.razor" />
     <MESSAGE value="added UserId in the DB" />
     <MESSAGE value="added ConvertShoppingCartListToOrderDetails" />
     <MESSAGE value="configure the ProcessOrderCreation" />
@@ -623,7 +607,10 @@
     <MESSAGE value="remove duplicate element" />
     <MESSAGE value="added pagination and data grid" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="added the total count of in the cart" />
+    <MESSAGE value="added a method to count the total item in the cart" />
+    <MESSAGE value="added a new singletone service called SharedStateService.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a new singletone service called SharedStateService.cs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

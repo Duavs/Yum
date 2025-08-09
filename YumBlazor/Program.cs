@@ -24,7 +24,7 @@ builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
 builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
 builder.Services.AddRadzenComponents();
-builder.Services.AddSingleton<SharedStateService>();
+builder.Services.AddScoped<SharedStateService>();
 builder.Services.AddAuthentication(options =>
     {
         options.DefaultScheme = IdentityConstants.ApplicationScheme;
@@ -34,6 +34,11 @@ builder.Services.AddAuthentication(options =>
     {
         options.AppId = "643064378813796";
         options.AppSecret = "6b5693cadd9cc2d46606e43740d69615";
+    })
+    .AddMicrosoftAccount(option =>
+    {
+        option.ClientId = "";
+        option.ClientSecret = "";
     })
     .AddIdentityCookies();
 

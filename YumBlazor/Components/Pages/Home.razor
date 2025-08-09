@@ -1,11 +1,13 @@
 ﻿@page "/"
 @using System.Globalization
+@using YumBlazor.Services
 @inject AuthenticationStateProvider  _AuthenticationStateProvider
 @inject IJSRuntime _JS
 @inject NavigationManager _NavigationManager
 @inject IShoppingCartRepository _cartRepository
 @inject IProductRepository _productRepository
 @inject ICategoryRepository _categoryRepository
+@inject SharedStateService _SharedStateService
 @if (IsProcessing)
 {
     <div class="position-absolute w-100 vh-100 d-flex flex-column  align-items-center bg-white justify-content-center"> 
@@ -105,9 +107,9 @@ else
 
     private async Task LoadProducts()
     {
-        Products = await _productRepository.GetAllAsync();
-        Categories = await _categoryRepository.GetAllAsync();
-        FilterProduct(0);
+         Products = await _productRepository.GetAllAsync();
+         Categories = await _categoryRepository.GetAllAsync();
+         FilterProduct(0);
     }
 
     private void FilterProduct(int categoryId)
@@ -158,9 +160,10 @@ else
         }   
         else
         {
+            var userId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
             var result = await 
-                _cartRepository.UpdateCartAsync(user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value, product.Id, 1);
-
+                _cartRepository.UpdateCartAsync(userId, product.Id, 1);
+            _SharedStateService.TotalCartCount = await _cartRepository.GetTotalCartCountAsync(userId);
             if (result)
             {
                 _JS?.ToastrSuccess("Product added to cart successfully!");

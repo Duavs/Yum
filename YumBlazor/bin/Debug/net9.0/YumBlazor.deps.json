@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v9.0": {
       "YumBlazor/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": "9.0.8",
+          "Microsoft.AspNetCore.Authentication.Google": "9.0.8",
+          "Microsoft.AspNetCore.Authentication.MicrosoftAccount": "9.0.8",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "9.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6",
@@ -60,6 +63,30 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/9.0.8": {
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "9.0.8.0",
+            "fileVersion": "9.0.825.36808"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/9.0.8": {
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "9.0.8.0",
+            "fileVersion": "9.0.825.36808"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.MicrosoftAccount/9.0.8": {
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {
+            "assemblyVersion": "9.0.8.0",
+            "fileVersion": "9.0.825.36808"
           }
         }
       },
@@ -1181,6 +1208,27 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5ETJkNHgUerGKOkTGuLrkrw7udxzeM6iRjK7CL5TD+WSoJ0oxGmYq05bb0PIWS1M3omlNIb7Z1TAWk777jmmoQ==",
+      "path": "microsoft.aspnetcore.authentication.facebook/9.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.9.0.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s6ruYYG+tR11o2NaGjDsHMJYve+lQx91kIo4Dpn78T7+lzhq1pItpot3zej1Z8BoDgFTuz2GdmYh0kbFlsW24g==",
+      "path": "microsoft.aspnetcore.authentication.google/9.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.google.9.0.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.MicrosoftAccount/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4zDWWLt9nW9fiowkA0J5F4kxGqQk2V+0jKP/+ZRVfH6PlMG/HtSYa2Yib2pVyaD2mUsgxP6A9Yt6X203oLRneg==",
+      "path": "microsoft.aspnetcore.authentication.microsoftaccount/9.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.microsoftaccount.9.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/9.0.7": {
       "type": "package",

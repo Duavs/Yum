@@ -30,6 +30,11 @@ builder.Services.AddAuthentication(options =>
         options.DefaultScheme = IdentityConstants.ApplicationScheme;
         options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
     })
+    .AddFacebook(options =>
+    {
+        options.AppId = "643064378813796";
+        options.AppSecret = "6b5693cadd9cc2d46606e43740d69615";
+    })
     .AddIdentityCookies();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??

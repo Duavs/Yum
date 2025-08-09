@@ -302,3 +302,6 @@
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/6xb9o06z95-9m4ex6rt0m.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/t2tvocn0z4-zc73wystbx.gz
 /Users/john/Projects/YumBlazor/YumBlazor/obj/Debug/net9.0/compressed/yxoywjgi7f-i35byf6w2d.gz
+/Users/john/Projects/YumBlazor/YumBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+/Users/john/Projects/YumBlazor/YumBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Google.dll
+/Users/john/Projects/YumBlazor/YumBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll

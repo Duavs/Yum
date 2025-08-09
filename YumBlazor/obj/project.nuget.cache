@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vl+TKI3EjLs=",
+  "dgSpecHash": "8OIbESfByVc=",
   "success": true,
   "projectFilePath": "/Users/john/Projects/YumBlazor/YumBlazor/YumBlazor.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "/Users/john/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
     "/Users/john/.nuget/packages/bootstrap/5.3.7/bootstrap.5.3.7.nupkg.sha512",
     "/Users/john/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/john/.nuget/packages/microsoft.aspnetcore.authentication.facebook/9.0.8/microsoft.aspnetcore.authentication.facebook.9.0.8.nupkg.sha512",
+    "/Users/john/.nuget/packages/microsoft.aspnetcore.authentication.google/9.0.8/microsoft.aspnetcore.authentication.google.9.0.8.nupkg.sha512",
+    "/Users/john/.nuget/packages/microsoft.aspnetcore.authentication.microsoftaccount/9.0.8/microsoft.aspnetcore.authentication.microsoftaccount.9.0.8.nupkg.sha512",
     "/Users/john/.nuget/packages/microsoft.aspnetcore.authorization/9.0.7/microsoft.aspnetcore.authorization.9.0.7.nupkg.sha512",
     "/Users/john/.nuget/packages/microsoft.aspnetcore.components/9.0.7/microsoft.aspnetcore.components.9.0.7.nupkg.sha512",
     "/Users/john/.nuget/packages/microsoft.aspnetcore.components.analyzers/9.0.7/microsoft.aspnetcore.components.analyzers.9.0.7.nupkg.sha512",

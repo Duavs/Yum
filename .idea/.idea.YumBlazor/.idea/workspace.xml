@@ -9,7 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Account/Shared/ExternalLoginPicker.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Account/Shared/ExternalLoginPicker.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,15 +173,7 @@
       <workItem from="1754492548464" duration="7932000" />
       <workItem from="1754667315399" duration="13231000" />
       <workItem from="1754718054052" duration="16120000" />
-      <workItem from="1754792202782" duration="5094000" />
-    </task>
-    <task id="LOCAL-00118" summary="created OrderDetail.cs model">
-      <option name="closed" value="true" />
-      <created>1754103710649</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1754103710649</updated>
+      <workItem from="1754792202782" duration="5422000" />
     </task>
     <task id="LOCAL-00119" summary="create OrderHeader.cs model">
       <option name="closed" value="true" />
@@ -566,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754797679860</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="changes">
+      <option name="closed" value="true" />
+      <created>1754797755468</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1754797755468</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,13 +607,13 @@
     <MESSAGE value="added the SharedStateService. implement it in Task function" />
     <MESSAGE value="injected SharedStateService and implement it in AddOrderItem function" />
     <MESSAGE value="injected AuthenticationStateProvider, SharedStateService and IShoppingCartrepository" />
-    <MESSAGE value="changes" />
     <MESSAGE value="implement facebook login" />
     <MESSAGE value="facebook login and signup" />
     <MESSAGE value="implement external login and signup via google" />
     <MESSAGE value="update style external sign up/sign in button" />
     <MESSAGE value=" changes" />
-    <option name="LAST_COMMIT_MESSAGE" value=" changes" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

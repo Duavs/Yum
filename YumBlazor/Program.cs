@@ -35,10 +35,10 @@ builder.Services.AddAuthentication(options =>
         options.AppId = "643064378813796";
         options.AppSecret = "6b5693cadd9cc2d46606e43740d69615";
     })
-    .AddMicrosoftAccount(option =>
+    .AddGoogle(option =>
     {
-        option.ClientId = "";
-        option.ClientSecret = "";
+        option.ClientId = "614242418134-2bk6l2tjl57bcf927mo9hpnu3ttju6mn.apps.googleusercontent.com";
+        option.ClientSecret = "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";
     })
     .AddIdentityCookies();
 

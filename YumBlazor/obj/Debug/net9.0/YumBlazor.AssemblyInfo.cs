@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YumBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f944d5d1e33c73d73c600104420d3f1b58d56a6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+000624f8bf165c6e89d4c0d6a3ff22d001d31a8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("YumBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YumBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,12 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/ExternalLogin.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/ExternalLogin.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/Register.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/Register.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Account/Shared/ManageLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Account/Shared/ManageLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Layout/NavBar.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
@@ -28,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,27 +101,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.YumBlazor: http.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.YumBlazor: http.executor": "Run",
+    ".NET Launch Settings Profile.YumBlazor: https.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver.localdb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver.localdb"
     ]
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.YumBlazor: http">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.YumBlazor: https">
     <configuration name="YumBlazor: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/YumBlazor/YumBlazor.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net9.0" />
@@ -188,15 +185,8 @@
       <workItem from="1754397353666" duration="4150000" />
       <workItem from="1754492548464" duration="7932000" />
       <workItem from="1754667315399" duration="13231000" />
-      <workItem from="1754718054052" duration="15311000" />
-    </task>
-    <task id="LOCAL-00114" summary="added new route">
-      <option name="closed" value="true" />
-      <created>1754031965439</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1754031965439</updated>
+      <workItem from="1754718054052" duration="16120000" />
+      <workItem from="1754792202782" duration="3439000" />
     </task>
     <task id="LOCAL-00115" summary="configure the cart section">
       <option name="closed" value="true" />
@@ -582,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754745418522</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="facebook login and signup">
+      <option name="closed" value="true" />
+      <created>1754753891412</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1754753891412</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +601,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="created OrderList component" />
     <MESSAGE value="created OrderDetials.razor component" />
     <MESSAGE value="populate the need data" />
     <MESSAGE value="added status in order details" />
@@ -628,7 +625,8 @@
     <MESSAGE value="injected AuthenticationStateProvider, SharedStateService and IShoppingCartrepository" />
     <MESSAGE value="changes" />
     <MESSAGE value="implement facebook login" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement facebook login" />
+    <MESSAGE value="facebook login and signup" />
+    <option name="LAST_COMMIT_MESSAGE" value="facebook login and signup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

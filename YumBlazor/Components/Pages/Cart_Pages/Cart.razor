@@ -177,6 +177,16 @@ else
 		OrderHeader.OrderDetails = SD.ConvertShoppingCartListToOrderDetails(ShoppingCarts.ToList());
 
 		await _orderRepository.CreateAsync(OrderHeader);
+
 		_navigationManager.NavigateTo($"/order/confirmation/{OrderHeader.Id}");
+		
+		await _cartRepository.ClearCartAsync(OrderHeader.UserId);
+		_sharedStateService.TotalCartCount = 0;
+
+		ShoppingCarts = new List<ShoppingCart>();
+		TotalItems = 0;
+		OrderHeader.OrderTotal = 0;
+
+		
 	}
 }

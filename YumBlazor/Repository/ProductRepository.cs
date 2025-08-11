@@ -23,7 +23,7 @@ public class ProductRepository : IProductRepository
 
     public async Task<Product> UpdateAsync(Product obj)
     {
-        var objFromDb = _db.Product.FirstOrDefault(u => u.Id == obj.Id);
+        var objFromDb = await _db.Product.FirstOrDefaultAsync(u => u.Id == obj.Id);
         if (objFromDb != null)
         {
             objFromDb.Name = obj.Name;

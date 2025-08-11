@@ -51,7 +51,7 @@ public class ShoppingCartRepository : IShoppingCartRepository
 
     public async Task<bool> ClearCartAsync(string? userId)
     {
-        var cartItems = _db.ShoppingCart.Where(c => c.UserId == userId).ToListAsync();
+        var cartItems = await _db.ShoppingCart.Where(c => c.UserId == userId).ToListAsync();
         _db.RemoveRange(cartItems);
         return await _db.SaveChangesAsync() > 0; 
     }

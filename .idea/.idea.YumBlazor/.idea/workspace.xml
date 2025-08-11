@@ -10,9 +10,10 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/ExternalLogin.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Account/Pages/ExternalLogin.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/ProductRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/ShoppingCartRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/ShoppingCartRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
@@ -79,6 +80,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a6f52f75db0c77bb83f322fb52f52cef9cff6cdafbb94dfec214bab243d18/Task.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ad21a37fb9c62642a9445c29321d3d136d19fa60425b26806692bbfee3523c/Path.Unix.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/beaecdeee49d57b5c392d6d98ddb2e5a8e1d7ab1c6a9ece524b78ade32afc5/TypeUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf9021a960b74107a7e141aa06bc9d8a0a53c929178c2fb95b1597be8af8dc/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c1cc58cc78a2d269eeb5ef89ead64de20ef815d24de2c8a762b3ef6702092/DefaultInterpolatedStringHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c2b587448e23bd69924d3d6ce2c091f8524b5e54f99b070918997a2c7540/FileSystemInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d0d96f40fdd9bc395fad59e4a8a6539e4eecce4865809ef4be1a473f911eceaa/ReadOnlySpan.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,11 +90,13 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e7cff0cafd46ae227f02475ecd55a28fa4fe7cd94c0225285c891fd9adbe2/Path.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YumBlazor/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YumBlazor/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -192,31 +196,7 @@
       <workItem from="1754667315399" duration="13231000" />
       <workItem from="1754718054052" duration="16120000" />
       <workItem from="1754792202782" duration="11011000" />
-      <workItem from="1754910482994" duration="7060000" />
-    </task>
-    <task id="LOCAL-00120" summary="update the image of the cart">
-      <option name="closed" value="true" />
-      <created>1754122948384</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1754122948385</updated>
-    </task>
-    <task id="LOCAL-00121" summary="fix the pickup details">
-      <option name="closed" value="true" />
-      <created>1754126126876</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1754126126877</updated>
-    </task>
-    <task id="LOCAL-00122" summary="configure the total amount of item added to cart">
-      <option name="closed" value="true" />
-      <created>1754141080333</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1754141080333</updated>
+      <workItem from="1754910482994" duration="11004000" />
     </task>
     <task id="LOCAL-00123" summary="added userId">
       <option name="closed" value="true" />
@@ -586,7 +566,31 @@
       <option name="project" value="LOCAL" />
       <updated>1754798309096</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="fix redundancy">
+      <option name="closed" value="true" />
+      <created>1754920597616</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1754920597616</updated>
+    </task>
+    <task id="LOCAL-00170" summary="add await in calling db">
+      <option name="closed" value="true" />
+      <created>1754920688113</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1754920688113</updated>
+    </task>
+    <task id="LOCAL-00171" summary="updated">
+      <option name="closed" value="true" />
+      <created>1754920711101</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1754920711101</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,9 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="fix the icons" />
-    <MESSAGE value="added authentication" />
-    <MESSAGE value="fix hover in NavBar.razor" />
     <MESSAGE value="added radzen in the project" />
     <MESSAGE value="added Radzen theme and scripts" />
     <MESSAGE value="implement simple radzen button" />
@@ -632,7 +633,10 @@
     <MESSAGE value="update style external sign up/sign in button" />
     <MESSAGE value=" changes" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="fix redundancy" />
+    <MESSAGE value="add await in calling db" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

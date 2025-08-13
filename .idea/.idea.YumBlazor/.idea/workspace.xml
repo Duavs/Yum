@@ -10,10 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Components/Pages/Cart_Pages/Cart.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/Repository/ShoppingCartRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Repository/ShoppingCartRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/bin/Debug/net9.0/YumBlazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
@@ -196,31 +193,7 @@
       <workItem from="1754667315399" duration="13231000" />
       <workItem from="1754718054052" duration="16120000" />
       <workItem from="1754792202782" duration="11011000" />
-      <workItem from="1754910482994" duration="11004000" />
-    </task>
-    <task id="LOCAL-00123" summary="added userId">
-      <option name="closed" value="true" />
-      <created>1754141093887</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1754141093887</updated>
-    </task>
-    <task id="LOCAL-00124" summary="added status for the item">
-      <option name="closed" value="true" />
-      <created>1754142774294</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1754142774294</updated>
-    </task>
-    <task id="LOCAL-00125" summary="implemented the status">
-      <option name="closed" value="true" />
-      <created>1754142799133</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1754142799133</updated>
+      <workItem from="1754910482994" duration="23352000" />
     </task>
     <task id="LOCAL-00126" summary="Created order repository interface">
       <option name="closed" value="true" />
@@ -590,7 +563,31 @@
       <option name="project" value="LOCAL" />
       <updated>1754920711101</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="reset cart item after place order">
+      <option name="closed" value="true" />
+      <created>1754925033460</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1754925033460</updated>
+    </task>
+    <task id="LOCAL-00173" summary="added await in clearCartAsync">
+      <option name="closed" value="true" />
+      <created>1754925095364</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1754925095365</updated>
+    </task>
+    <task id="LOCAL-00174" summary="fix the display of phone number in OrderList.razor">
+      <option name="closed" value="true" />
+      <created>1755009326606</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1755009326606</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,9 +608,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added radzen in the project" />
-    <MESSAGE value="added Radzen theme and scripts" />
-    <MESSAGE value="implement simple radzen button" />
     <MESSAGE value="fix" />
     <MESSAGE value="remove button" />
     <MESSAGE value="added radzen html editor" />
@@ -636,7 +630,10 @@
     <MESSAGE value="fix redundancy" />
     <MESSAGE value="add await in calling db" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="reset cart item after place order" />
+    <MESSAGE value="added await in clearCartAsync" />
+    <MESSAGE value="fix the display of phone number in OrderList.razor" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the display of phone number in OrderList.razor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

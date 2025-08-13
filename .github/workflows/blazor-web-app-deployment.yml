@@ -10,7 +10,7 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: 'BlazorYumApp'
-  AZURE_WEBAPP_PACKAGE_PATH: '.'  # Changed from '.' to './publish'
+  AZURE_WEBAPP_PACKAGE_PATH: 'bin/Release/net9.0/publish' # Changed from '.' to './publish'
   DOTNET_VERSION: '9.0'
     
 jobs:

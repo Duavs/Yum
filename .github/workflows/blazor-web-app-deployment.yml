@@ -30,12 +30,12 @@ jobs:
           
       - name: Build and publish
         run: |
-          dotnet clean
-          dotnet build YumBlazor/YumBlazor.csproj --configuration Release --no-restore
-          dotnet publish YumBlazor/YumBlazor.csproj --configuration Release --output ${{ env.AZURE_WEBAPP_PACKAGE_PATH }} --no-build
+         dotnet build --configuration Release
+         dotnet publish --configuration Release --output ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+
       
       - name: Deploy to Azure Web App
-        uses: Azure/webapps-deploy@v3  # Updated to v3
+        uses: Azure/webapps-deploy@v2  # Updated to v3
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}

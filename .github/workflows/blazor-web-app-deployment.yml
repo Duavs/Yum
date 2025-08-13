@@ -4,37 +4,39 @@ on:
   push:
     branches:
       - main
-    pull_request:
-      branches:
-        - main
+  pull_request:
+    branches:
+      - main
+
 env:
-    AZURE_WEBAPP_NAME: 'BlazorYumApp'
-    AZURE_WEBAPP_PACKAGE_PATH: '.'
-    DOTNET_VERSION: '9.0'
+  AZURE_WEBAPP_NAME: 'BlazorYumApp'
+  AZURE_WEBAPP_PACKAGE_PATH: './publish'  # Changed from '.' to './publish'
+  DOTNET_VERSION: '9.0'
     
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     environment: dev
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4  # Updated to v4
       
       - name: Setup .NET
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4  # Updated to v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
           
-
-      - name: dotnet build and publish
+      - name: Restore dependencies
+        run: dotnet restore
+          
+      - name: Build and publish
         run: |
-          dotnet build --configuration Release
-          dotnet publish --configuration Release --output ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+          dotnet clean
+          dotnet build YumBlazor/YumBlazor.csproj --configuration Release --no-restore
+          dotnet publish YumBlazor/YumBlazor.csproj --configuration Release --output ${{ env.AZURE_WEBAPP_PACKAGE_PATH }} --no-build
       
-      - name: Run Yum App deploy action using publish profile credentials
-        uses: Azure/webapps-deploy@v2
+      - name: Deploy to Azure Web App
+        uses: Azure/webapps-deploy@v3  # Updated to v3
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-        
-        

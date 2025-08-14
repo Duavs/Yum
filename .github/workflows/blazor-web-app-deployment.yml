@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  AZURE_WEBAPP_NAME: 'BlazorYumApp'
+  AZURE_WEBAPP_NAME: 'blazorwebappbygithubaction'
   AZURE_WEBAPP_PACKAGE_PATH: 'bin/Release/net9.0/publish'
   DOTNET_VERSION: '9.0'
 

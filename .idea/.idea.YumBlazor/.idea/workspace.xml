@@ -11,12 +11,7 @@
     <list default="true" id="44326944-069e-49da-a1f8-1b08d0956c3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YumBlazor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YumBlazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/Debug/net9.0/YumBlazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/YumBlazor.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/YumBlazor.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YumBlazor/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YumBlazor/github/workflows/blazor-web-app-deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/YumBlazor/github/workflows/blazor-web-app-deployment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,15 +189,7 @@
       <workItem from="1754792202782" duration="11011000" />
       <workItem from="1754910482994" duration="23352000" />
       <workItem from="1755086222328" duration="3570000" />
-      <workItem from="1755094453261" duration="2331000" />
-    </task>
-    <task id="LOCAL-00127" summary="added the interface OrderRepository">
-      <option name="closed" value="true" />
-      <created>1754148693658</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1754148693659</updated>
+      <workItem from="1755094453261" duration="6007000" />
     </task>
     <task id="LOCAL-00128" summary="created order repository">
       <option name="closed" value="true" />
@@ -588,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755091215260</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="add my deployment yaml file">
+      <option name="closed" value="true" />
+      <created>1755096861303</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1755096861303</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +604,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="fix" />
     <MESSAGE value="remove button" />
     <MESSAGE value="added radzen html editor" />
     <MESSAGE value="apply the standard theme in radzen" />
@@ -634,7 +628,8 @@
     <MESSAGE value="added await in clearCartAsync" />
     <MESSAGE value="fix the display of phone number in OrderList.razor" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="add my deployment yaml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add my deployment yaml file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
